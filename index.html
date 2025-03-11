@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Huffman Text Compression</title>
+    
+</head>
+<body>
+    <div class="background-animation" id="background-animation"></div>
+    <div class="clock" id="clock">00:00:00</div>
+
+    <div class="container">
+        <h1>Huffman Text Compression</h1>
+        
+        <div class="input-section">
+            <label for="input-text">Enter Text to Compress:</label>
+            <textarea id="input-text" placeholder="Type or paste your text here..."></textarea>
+            <button id="compress-btn">Compress</button>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="loading-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <p>Compressing...</p>
+        </div>
+
+        <div class="output-section" id="output-section" style="display: none;">
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="glow-effect"></div>
+                    <h4>Original Size</h4>
+                    <p id="original-size">0 bits</p>
+                </div>
+                <div class="stat-item">
+                    <div class="glow-effect"></div>
+                    <h4>Compressed Size</h4>
+                    <p id="compressed-size">0 bits</p>
+                </div>
+                <div class="stat-item">
+                    <div class="glow-effect"></div>
+                    <h4>Compression Ratio</h4>
+                    <div class="ratio-container">
+                        <div class="progress-circle">
+                            <svg viewBox="0 0 100 100">
+                                <circle class="bg" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress" id="progress-circle" cx="50" cy="50" r="45"></circle>
+                            </svg>
+                            <div class="progress-text" id="progress-text">0%</div>
+                        </div>
+                        <div class="ratio-label">Compression Ratio</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="glow-effect"></div>
+                    <h4>Execution Time</h4>
+                    <p id="execution-time">0 ms</p>
+                </div>
+            </div>
+
+            <div class="output-container">
+                <div class="output-box">
+                    <div class="glow-effect"></div>
+                    <h3>Compressed Binary</h3>
+                    <div class="output-content" id="binary-output"></div>
+                </div>
+                <div class="output-box">
+                    <div class="glow-effect"></div>
+                    <h3>Character Mappings</h3>
+                    <div class="output-content" id="mapping-output"></div>
+                </div>
+            </div>
+
+            <div class="complexity-info">
+                <div class="glow-effect"></div>
+                <h3>Algorithm Complexity</h3>
+                <p><strong>Time Complexity:</strong> O(n log n) - where n is the number of unique characters in the input text. This is because:</p>
+                <ul>
+                    <li>Building frequency table: O(n)</li>
+                    <li>Building priority queue: O(n)</li>
+                    <li>Building Huffman tree: O(n log n)</li>
+                    <li>Generating codes: O(n)</li>
+                </ul>
+                <p><strong>Space Complexity:</strong> O(n) - We need to store:</p>
+                <ul>
+                    <li>Frequency table: O(n)</li>
+                    <li>Huffman tree: O(n)</li>
+                    <li>Code table: O(n)</li>
+                </ul>
+                <p class="tooltip">
+                    <strong>Why Huffman Compression?</strong> 
+                    <span class="tooltip-text">Huffman coding assigns variable-length codes to characters based on their frequencies. More frequent characters get shorter codes, resulting in overall compression.</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
