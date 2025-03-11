@@ -89,7 +89,7 @@ Then, open `http://localhost:8000` in your browser.
 
 ### Home Page
 
-![Front Page](![Image](https://github.com/user-attachments/assets/55b0524a-32f5-4e60-bb30-46c6b9f1bbd1))
+![Image](https://github.com/user-attachments/assets/fcc51825-76f3-43ae-a362-eb32869182b2)
 
 ### Compression Result
 
