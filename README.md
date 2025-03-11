@@ -132,9 +132,6 @@ Then, open `http://localhost:8000` in your browser.
 This project is licensed under the MIT License – free to use and modify.
 
 ## Contact & Contributions 🤝
-
-- Want to contribute? Open an issue or submit a pull request!
-- Need help? Reach out at [your-email@example.com](mailto:your-email@example.com)
 - GitHub: [Huffman-Text-Compression](https://github.com/TheGravityFalls-11/HuffMan-Coding)
 
 
