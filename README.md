@@ -89,7 +89,7 @@ Then, open `http://localhost:8000` in your browser.
 
 ### Home Page
 
-![Home Page](assets/screenshots/homepage.png)
+![Front Page](https://github.com/TheGravityFalls-11/HuffMan-Coding/issues/1#issue-2911526524)
 
 ### Compression Result
 
