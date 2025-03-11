@@ -1,6 +1,8 @@
 # Huffman Text Compression 🚀
 
 A powerful text compression tool implementing Huffman Coding, an optimal lossless compression algorithm. This project allows users to input text and receive a compressed binary representation along with compression statistics, execution time, and Huffman character mappings.
+## Live Demo
+[Live Demo](https://thegravityfalls-11.github.io/HaffMan-Coding/)
 
 ## What Problem Does It Solve? 🤔
 
