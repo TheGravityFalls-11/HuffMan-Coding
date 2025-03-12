@@ -81,7 +81,7 @@ python -m http.server 8000  # Runs a simple Python HTTP server
 ```  
 Then, open `http://localhost:8000` in your browser.  
 
-## Screenshots 📷  
+## Output Images 📷  
 
 ### Home Page  
 ![Front Page](https://github.com/user-attachments/assets/60c028a6-5317-4871-a300-d3068f9b5c00)
