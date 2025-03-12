@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>Huffman Text Compression</title>
-    
+    <title>Huffman Compression Tool</title>
+   <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <div class="background-animation" id="background-animation"></div>
     <div class="clock" id="clock">00:00:00</div>
 
     <div class="container">
-        <h1>Huffman Text Compression</h1>
+        <h1 id="title">Huffman Compression Tool</h1>
+        
+<div class="tabs">
+    <button class="tab-btn active" data-tab="text">Text Compression</button>
+    <button class="tab-btn" data-tab="image">Image Compression</button>
+</div>
+
+<div class="tab-content" id="text-tab">
         
         <div class="input-section">
             <label for="input-text">Enter Text to Compress:</label>
@@ -97,8 +103,99 @@
                 </p>
             </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+</div>
 
+<div class="tab-content" id="image-tab" style="display: none;">
+    <div class="input-section">
+        <label for="image-input">Select an Image to Compress:</label>
+        <div class="drop-zone" id="drop-zone">
+            <p>Drag & drop your image here or click to browse</p>
+            <input type="file" id="image-input" accept="image/jpeg,image/jpg,image/png" style="display: none;">
+        </div>
+        <div class="image-preview-container" id="image-preview-container" style="display: none;">
+            <h4>Preview:</h4>
+            <img id="image-preview" alt="Preview" style="max-width: 100%; max-height: 300px; border-radius: 8px; margin-top: 10px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);">
+            <p id="file-name">No file selected</p>
+        </div>
+        <button id="compress-image-btn" disabled>Compress Image</button>
+    </div>
+
+    <div class="loading" id="image-loading" style="display: none;">
+        <div class="loading-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <p>Compressing Image...</p>
+    </div>
+
+    <div class="output-section" id="image-output-section" style="display: none;">
+        <div class="stats">
+            <div class="stat-item">
+                <div class="glow-effect"></div>
+                <h4>Original Size</h4>
+                <p id="image-original-size">0 KB</p>
+            </div>
+            <div class="stat-item">
+                <div class="glow-effect"></div>
+                <h4>Compressed Size</h4>
+                <p id="image-compressed-size">0 KB</p>
+            </div>
+            <div class="stat-item">
+                <div class="glow-effect"></div>
+                <h4>Compression Ratio</h4>
+                <div class="ratio-container">
+                    <div class="progress-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle class="bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="progress" id="image-progress-circle" cx="50" cy="50" r="45"></circle>
+                        </svg>
+                        <div class="progress-text" id="image-progress-text">0%</div>
+                    </div>
+                    <div class="ratio-label">Compression Ratio</div>
+                </div>
+            </div>
+            <div class="stat-item">
+                <div class="glow-effect"></div>
+                <h4>Execution Time</h4>
+                <p id="image-execution-time">0 ms</p>
+            </div>
+        </div>
+
+        <div class="image-comparison">
+            <div class="image-container">
+                <h3>Original Image</h3>
+                <div class="image-wrapper">
+                    <img id="original-image" alt="Original Image">
+                </div>
+                <p id="original-dimensions">Dimensions: 0 x 0</p>
+            </div>
+            <div class="image-container">
+                <h3>Compressed Image</h3>
+                <div class="image-wrapper">
+                    <img id="compressed-image" alt="Compressed Image">
+                </div>
+                <p id="compressed-dimensions">Dimensions: 0 x 0</p>
+            </div>
+        </div>
+
+        <div class="complexity-info">
+            <div class="glow-effect"></div>
+            <h3>Image Compression Details</h3>
+            <p>The image is compressed using a simplified version of JPEG compression techniques:</p>
+            <ul>
+                <li>Color space conversion (RGB to YCbCr)</li>
+                <li>Downsampling of chrominance components</li>
+                <li>Discrete Cosine Transform (DCT) on 8x8 blocks</li>
+                <li>Quantization to reduce high-frequency components</li>
+                <li>Huffman coding for final compression </li>
+            </ul>
+            <p>Note: This is a demonstration of lossy compression. Some image quality is sacrificed to achieve higher compression ratios.</p>
+        </div>
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
+
