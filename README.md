@@ -89,6 +89,9 @@ Then, open `http://localhost:8000` in your browser.
 ### Compression Result  
 ![Result Page](https://github.com/user-attachments/assets/e161bcd8-fd0c-4720-a7fb-af82da3cb3c1)  
 
+### Image Compression Result
+![Result Page](https://github.com/user-attachments/assets/7ecaff30-f92f-4462-8775-b67c6ef6139f)
+
 ## Usage 🎯  
 
 1. **For Text Compression**  
