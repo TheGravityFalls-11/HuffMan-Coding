@@ -58,31 +58,6 @@ function updateClock() {
     document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
 }
 
-// Update circular progress
-function updateProgressCircle(percentage) {
-    const circle = document.getElementById('progress-circle');
-    const text = document.getElementById('progress-text');
-    
-    // Calculate the stroke-dashoffset value
-    // The circumference of a circle is 2πr
-    // For our circle with r=45, the circumference is approximately 283
-    const circumference = 2 * Math.PI * 45;
-    const offset = circumference - (percentage / 100) * circumference;
-    
-    // Update the circle and text
-    circle.style.strokeDashoffset = offset;
-    text.textContent = `${percentage}%`;
-    
-    // Change color based on percentage
-    if (percentage < 30) {
-        circle.style.stroke = '#FF6B8B'; // Light red
-    } else if (percentage < 60) {
-        circle.style.stroke = '#FF9E80'; // Orange
-    } else {
-        circle.style.stroke = '#66BB6A'; // Green
-    }
-}
-
 // Huffman Coding Implementation
 class MinHeapNode {
     constructor(char, freq) {
@@ -162,8 +137,6 @@ class MinHeap {
                 rightChild = this.heap[rightChildIndex];
                 if (
                     (swap === null && rightChild.freq < element.freq) || 
-                    (swap !== null && rightChild.freq < leftChild.freq)
-          || 
                     (swap !== null && rightChild.freq < leftChild.freq)
                 ) {
                     swap = rightChildIndex;
@@ -286,13 +259,33 @@ class HuffmanCoding {
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
+    // Create background elements and initialize clock
     createBackgroundElements();
     updateClock();
     setInterval(updateClock, 1000);
     
-    // Initialize progress circle
-    updateProgressCircle(0);
+    // Tab switching functionality
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
     
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // Remove active class from all buttons
+            tabBtns.forEach(b => b.classList.remove('active'));
+            
+            // Add active class to clicked button
+            this.classList.add('active');
+            
+            // Hide all tab contents
+            tabContents.forEach(content => content.style.display = 'none');
+            
+            // Show the selected tab content
+            const tabId = this.getAttribute('data-tab');
+            document.getElementById(`${tabId}-tab`).style.display = 'block';
+        });
+    });
+    
+    // Text Compression
     const compressBtn = document.getElementById('compress-btn');
     const inputText = document.getElementById('input-text');
     const outputSection = document.getElementById('output-section');
@@ -302,6 +295,26 @@ document.addEventListener('DOMContentLoaded', function() {
     const compressedSize = document.getElementById('compressed-size');
     const executionTime = document.getElementById('execution-time');
     const loading = document.getElementById('loading');
+    
+    // Update circular progress for text compression
+    function updateProgressCircle(percentage) {
+        const circle = document.getElementById('progress-circle');
+        const text = document.getElementById('progress-text');
+        
+        const circumference = 2 * Math.PI * 45;
+        const offset = circumference - (percentage / 100) * circumference;
+        
+        circle.style.strokeDashoffset = offset;
+        text.textContent = `${percentage}%`;
+        
+        if (percentage < 30) {
+            circle.style.stroke = '#FF6B8B'; // Light red
+        } else if (percentage < 60) {
+            circle.style.stroke = '#FF9E80'; // Orange
+        } else {
+            circle.style.stroke = '#66BB6A'; // Green
+        }
+    }
     
     compressBtn.addEventListener('click', function() {
         const text = inputText.value.trim();
@@ -347,6 +360,178 @@ document.addEventListener('DOMContentLoaded', function() {
             outputSection.style.animation = 'fadeIn 0.5s ease-in-out';
         }, 100);
     });
+    
+    // Image Compression
+    const dropZone = document.getElementById('drop-zone');
+    const imageInput = document.getElementById('image-input');
+    const previewContainer = document.getElementById('image-preview-container');
+    const imagePreview = document.getElementById('image-preview');
+    const fileName = document.getElementById('file-name');
+    const compressImageBtn = document.getElementById('compress-image-btn');
+    const imageLoading = document.getElementById('image-loading');
+    const imageOutputSection = document.getElementById('image-output-section');
+    
+    // Handle drag and drop
+    ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+        dropZone.addEventListener(eventName, preventDefaults, false);
+    });
+    
+    function preventDefaults(e) {
+        e.preventDefault();
+        e.stopPropagation();
+    }
+    
+    ['dragenter', 'dragover'].forEach(eventName => {
+        dropZone.addEventListener(eventName, highlight, false);
+    });
+    
+    ['dragleave', 'drop'].forEach(eventName => {
+        dropZone.addEventListener(eventName, unhighlight, false);
+    });
+    
+    function highlight() {
+        dropZone.classList.add('active');
+    }
+    
+    function unhighlight() {
+        dropZone.classList.remove('active');
+    }
+    
+    dropZone.addEventListener('drop', handleDrop, false);
+    
+    function handleDrop(e) {
+        const dt = e.dataTransfer;
+        const files = dt.files;
+        
+        if (files.length > 0 && files[0].type.match('image.*')) {
+            handleFiles(files);
+        }
+    }
+    
+    dropZone.addEventListener('click', () => {
+        imageInput.click();
+    });
+    
+    imageInput.addEventListener('change', function() {
+        if (this.files.length > 0) {
+            handleFiles(this.files);
+        }
+    });
+    
+    function handleFiles(files) {
+        const file = files[0];
+        
+        if (!file.type.match('image/jpeg') && !file.type.match('image/jpg') && !file.type.match('image/png')) {
+            alert('Please select a JPG or PNG image.');
+            return;
+        }
+        
+        fileName.textContent = file.name;
+        
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            imagePreview.src = e.target.result;
+            previewContainer.style.display = 'block';
+            compressImageBtn.disabled = false;
+            
+            // Also load the image to get dimensions
+            const img = new Image();
+            img.onload = function() {
+                document.getElementById('original-dimensions').textContent = `Dimensions: ${img.width} x ${img.height}`;
+            };
+            img.src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+    }
+    
+    // Update circular progress for image compression
+    function updateImageProgressCircle(percentage) {
+        const circle = document.getElementById('image-progress-circle');
+        const text = document.getElementById('image-progress-text');
+        
+        const circumference = 2 * Math.PI * 45;
+        const offset = circumference - (percentage / 100) * circumference;
+        
+        circle.style.strokeDashoffset = offset;
+        text.textContent = `${percentage}%`;
+        
+        if (percentage < 30) {
+            circle.style.stroke = '#FF6B8B'; // Light red
+        } else if (percentage < 60) {
+            circle.style.stroke = '#FF9E80'; // Orange
+        } else {
+            circle.style.stroke = '#66BB6A'; // Green
+        }
+    }
+    
+    function formatSize(bytes) {
+        if (bytes < 1024) {
+            return `${bytes} bytes`;
+        } else if (bytes < 1024 * 1024) {
+            return `${(bytes / 1024).toFixed(2)} KB`;
+        } else {
+            return `${(bytes / (1024 * 1024)).toFixed(2)} MB`;
+        }
+    }
+    
+    compressImageBtn.addEventListener('click', function() {
+        if (!imageInput.files || !imageInput.files[0]) {
+            alert('Please select an image first.');
+            return;
+        }
+        
+        // Show loading animation
+        imageLoading.style.display = 'block';
+        imageOutputSection.style.display = 'none';
+        
+        setTimeout(() => {
+            compressImage();
+        }, 100);
+    });
+    
+    function compressImage() {
+        const startTime = performance.now();
+        
+        // Get the original image
+        const originalImage = document.getElementById('image-preview');
+        
+        // Create a canvas to process the image
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Set canvas dimensions to 80% of original for compression
+        const scaleFactor = 0.8;
+        canvas.width = originalImage.naturalWidth * scaleFactor;
+        canvas.height = originalImage.naturalHeight * scaleFactor;
+        
+        // Draw the image on the canvas with reduced quality
+        ctx.drawImage(originalImage, 0, 0, canvas.width, canvas.height);
+        
+        // Get the compressed image as a data URL with reduced quality
+        const compressedDataURL = canvas.toDataURL('image/jpeg', 0.6);
+        
+        // Calculate sizes
+        const originalSize = Math.ceil(originalImage.src.length * 0.75); // Approximate size of base64 data
+        const compressedSize = Math.ceil(compressedDataURL.length * 0.75);
+        
+        // Calculate compression ratio
+        const compressionRatio = ((originalSize - compressedSize) / originalSize * 100).toFixed(2);
+        
+        // Display the results
+        document.getElementById('original-image').src = originalImage.src;
+        document.getElementById('compressed-image').src = compressedDataURL;
+        document.getElementById('compressed-dimensions').textContent = `Dimensions: ${canvas.width} x ${canvas.height}`;
+        
+        document.getElementById('image-original-size').textContent = formatSize(originalSize);
+        document.getElementById('image-compressed-size').textContent = formatSize(compressedSize);
+        document.getElementById('image-execution-time').textContent = `${(performance.now() - startTime).toFixed(2)} ms`;
+        
+        updateImageProgressCircle(parseFloat(compressionRatio));
+        
+        // Hide loading and show results
+        imageLoading.style.display = 'none';
+        imageOutputSection.style.display = 'block';
+    }
     
     // Add 3D tilt effect based on mouse position for the entire container
     const container = document.querySelector('.container');
