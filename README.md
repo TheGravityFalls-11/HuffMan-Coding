@@ -23,9 +23,9 @@ A powerful **compression tool** implementing **Huffman Coding** for both **text*
 
 ## Technology Stack 🛠️  
 
-- **Frontend**: HTML, CSS (UI & Animations)  
-- **Backend Logic (Client-Side)**: JavaScript (for Huffman Encoding Algorithm)  
-- **Data Visualization**: SVG for progress circles, dynamic DOM manipulation for stats display  
+- **Frontend**: HTML, CSS (UI & Animations).  
+- **Backend Logic (Client-Side)**: JavaScript (for Huffman Encoding Algorithm).  
+- **Data Visualization**: SVG for progress circles, dynamic DOM manipulation for stats display.  
 
 ## Features ✨  
 
