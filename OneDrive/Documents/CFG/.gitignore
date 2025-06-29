@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+frontend/node_modules/
+backend/node_modules/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
+
+# Environment files
+*.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm/
+
+# Misc
+frontend/.next/
+frontend/.turbo/
+coverage/
