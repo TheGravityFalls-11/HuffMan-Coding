@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌾 Smart Agricultural Machinery Predictor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 50%, #a5d6a7 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2e7d32, #388e3c);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .form-container {
+            padding: 40px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #2e7d32;
+            font-size: 1rem;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: #fafafa;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #4caf50;
+            background: white;
+            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+        }
+
+        select[multiple] {
+            min-height: 120px;
+            padding: 10px;
+        }
+
+        select[multiple] option {
+            padding: 5px;
+            margin: 2px 0;
+            border-radius: 5px;
+        }
+
+        select[multiple] option:checked {
+            background: #4caf50;
+            color: white;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #4caf50, #66bb6a);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .result {
+            background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+            border: 2px solid #4caf50;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 30px;
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.1);
+        }
+
+        .result h3 {
+            color: #2e7d32;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .result-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .result-item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #4caf50;
+        }
+
+        .result-item h4 {
+            color: #2e7d32;
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+
+        .result-item p {
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .machines-list {
+            grid-column: 1 / -1;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #ff9800;
+        }
+
+        .machines-list h4 {
+            color: #f57c00;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        .machine-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .machine-tag {
+            background: linear-gradient(135deg, #ff9800, #ffb74d);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 5px rgba(255, 152, 0, 0.3);
+        }
+
+        .confidence-bar {
+            background: #e0e0e0;
+            border-radius: 10px;
+            height: 20px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4caf50, #66bb6a);
+            border-radius: 10px;
+            transition: width 0.5s ease;
+        }
+
+        .error {
+            background: linear-gradient(135deg, #ffebee, #ffcdd2);
+            border: 2px solid #f44336;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 30px;
+            color: #c62828;
+            text-align: center;
+        }
+
+        .error h3 {
+            margin-bottom: 10px;
+        }
+
+        .info-box {
+            background: #e3f2fd;
+            border: 1px solid #2196f3;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .info-box h4 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+
+        .info-box p {
+            color: #555;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .result-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .form-container {
+                padding: 20px;
+            }
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4caf50;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌾 Smart Agricultural Machinery Predictor</h1>
+            <p>AI-powered recommendations for optimal farming equipment</p>
+        </div>
+
+        <div class="form-container">
+            <div class="info-box">
+                <h4>📋 How to use this tool:</h4>
+                <p>Fill in your village details, select your crops, available machines, tech gaps, and labor issues. Our AI model will recommend the best machinery for your farming needs based on similar villages and successful farming practices.</p>
+            </div>
+
+            <form method="POST" action="/predict" id="predictionForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="village_name">🏘️ Village Name:</label>
+                        <input type="text" id="village_name" name="village_name" required 
+                               placeholder="Enter your village name"
+                               value="{{ request.form.get('village_name', '') }}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="land_size">📏 Land Size (Acres):</label>
+                        <input type="number" id="land_size" name="land_size" required 
+                               min="0.1" step="0.1" placeholder="e.g., 5.5"
+                               value="{{ request.form.get('land_size', '') }}">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="crops">🌾 Crops (Hold Ctrl/Cmd to select multiple):</label>
+                        <select name="crops" id="crops" multiple required>
+                            {% for crop in options.crops %}
+                            <option value="{{ crop }}" 
+                                {% if crop in request.form.getlist('crops') %}selected{% endif %}>
+                                {{ crop }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="machines">🚜 Machines Available (Hold Ctrl/Cmd to select multiple):</label>
+                        <select name="machines" id="machines" multiple required>
+                            {% for machine in options.machines %}
+                            <option value="{{ machine }}"
+                                {% if machine in request.form.getlist('machines') %}selected{% endif %}>
+                                {{ machine }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="labor_issue">👥 Labor Issues:</label>
+                        <select name="labor_issue" id="labor_issue" required>
+                            <option value="">Select labor issue...</option>
+                            {% for issue in options.labor_issues %}
+                            <option value="{{ issue }}"
+                                {% if issue == request.form.get('labor_issue') %}selected{% endif %}>
+                                {{ issue }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tech_gaps">⚙️ Technology Gaps (Hold Ctrl/Cmd to select multiple):</label>
+                        <select name="tech_gaps" id="tech_gaps" multiple required>
+                            {% for gap in options.tech_gaps %}
+                            <option value="{{ gap }}"
+                                {% if gap in request.form.getlist('tech_gaps') %}selected{% endif %}>
+                                {{ gap }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    🔮 Predict Best Machinery
+                </button>
+            </form>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Analyzing your farming needs...</p>
+            </div>
+
+            {% if error %}
+            <div class="error">
+                <h3>❌ Error</h3>
+                <p>{{ error }}</p>
+            </div>
+            {% endif %}
+
+            {% if result %}
+            <div class="result">
+                <h3>🎯 Prediction Results</h3>
+                
+                <div class="result-grid">
+                    <div class="result-item">
+                        <h4>🏘️ Village</h4>
+                        <p>{{ result.village_name }}</p>
+                    </div>
+                    
+                    <div class="result-item">
+                        <h4>📏 Land Size</h4>
+                        <p>{{ result.land_size }} acres</p>
+                    </div>
+                    
+                    <div class="result-item">
+                        <h4>🌾 Crops</h4>
+                        {% for crop in result.crops %}
+                        <p>• {{ crop }}</p>
+                        {% endfor %}
+                    </div>
+                    
+                    <div class="result-item">
+                        <h4>🚜 Current Machines</h4>
+                        {% for machine in result.machines %}
+                        <p>• {{ machine }}</p>
+                        {% endfor %}
+                    </div>
+                    
+                    <div class="result-item">
+                        <h4>👥 Labor Issue</h4>
+                        <p>{{ result.labor_issue }}</p>
+                    </div>
+                    
+                    <div class="result-item">
+                        <h4>📊 Confidence</h4>
+                        <p>{{ result.confidence }}%</p>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: {{ result.confidence }}%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="machines-list">
+                        <h4>🔧 Recommended Machinery</h4>
+                        {% if result.suggested_machines %}
+                        <div class="machine-tags">
+                            {% for machine in result.suggested_machines %}
+                            <span class="machine-tag">{{ machine }}</span>
+                            {% endfor %}
+                        </div>
+                        {% else %}
+                        <p>No specific machinery recommendations available for your current setup.</p>
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <p style="text-align: center; color: #666; font-size: 0.9rem; margin-top: 15px;">
+                    📅 Generated on {{ result.timestamp }}
+                </p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', function() {
+            document.getElementById('loading').style.display = 'block';
+        });
+
+        // Auto-hide loading on page load
+        window.addEventListener('load', function() {
+            document.getElementById('loading').style.display = 'none';
+        });
+
+        // Add some interactivity to multi-select dropdowns
+        document.querySelectorAll('select[multiple]').forEach(select => {
+            select.addEventListener('change', function() {
+                const selectedCount = this.selectedOptions.length;
+                const label = this.previousElementSibling;
+                if (selectedCount > 0) {
+                    label.style.color = '#4caf50';
+                } else {
+                    label.style.color = '#2e7d32';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

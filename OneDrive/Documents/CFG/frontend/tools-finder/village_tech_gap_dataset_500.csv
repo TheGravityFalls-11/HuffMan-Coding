@@ -1,0 +1,501 @@
+Village Name,Land Size (Acres),Crops,Machines Available,Labor Issues,Tech Gaps,Suggested Machines,Recommended Training Focus
+Chandipur,1857,"Wheat, Sugarcane, Paddy, Mung","Manual Tools, Sprayer, None",None,"Manual sowing, No harvester, No weeder","Seed drill, Harvester","Machine handling, Bookkeeping"
+Dhanwar,2691,"Maize, Mung, Sugarcane",Tractor,Harvest labor shortage,"Manual weeding, No harvester, No seed drill","Sprayer, Weeder",Machine handling
+Rajpur,1460,"Millets, Chana","Manual Tools, Sprayer",Harvest labor shortage,"Manual sowing, No paddy planter","Sprayer, Paddy transplanter",Machine handling
+Dhanwar,1866,"Sugarcane, Maize, Chana",Harvester,Harvest labor shortage,No harvester,Weeder,Repair & maintenance
+Pipra,2438,"Chana, Paddy","Sprayer, None",Harvest labor shortage,No harvester,Sprayer,"Machine handling, Bookkeeping"
+Khurda,2883,"Vegetables, Millets, Maize, Wheat","None, Sprayer, Tractor",Labor migration,"No paddy planter, No seed drill, Manual weeding","Seed drill, Sprayer","Custom hiring, Bookkeeping"
+Rajpur,1702,"Maize, Mung, Paddy, Chana","Harvester, Manual Tools, Sprayer",Harvest labor shortage,"Manual weeding, No weeder, Manual sowing",Paddy transplanter,"Machine handling, Repair & maintenance"
+Kundesar,2889,"Sugarcane, Paddy, Vegetables","None, Sprayer, Tractor",Harvest labor shortage,No seed drill,"Harvester, Sprayer",Repair & maintenance
+Rajpur,1145,"Vegetables, Chana, Paddy, Mung",None,No major labor issues,No weeder,"Weeder, Harvester","Nursery setup, Custom hiring"
+Rajpur,2547,"Wheat, Paddy, Vegetables, Maize",Harvester,Labor migration,"No harvester, No weeder","Harvester, Sprayer",Nursery setup
+Pipra,1281,"Paddy, Mung, Maize, Sugarcane","Tractor, Harvester, Sprayer",Labor migration,"Manual weeding, Manual sowing, No harvester","Seed drill, Sprayer","Bookkeeping, Machine handling"
+Pipra,2705,"Sugarcane, Wheat",Sprayer,No major labor issues,No harvester,"Sprayer, Paddy transplanter",Custom hiring
+Dhanwar,814,"Chana, Paddy",Sprayer,Need skilled labor,"No paddy planter, No weeder, Manual sowing","Paddy transplanter, Weeder","Bookkeeping, Nursery setup"
+Dhanwar,1380,"Wheat, Maize","Sprayer, Harvester, None",Harvest labor shortage,No harvester,Paddy transplanter,Custom hiring
+Pipra,796,"Paddy, Millets, Vegetables",Tractor,Labor migration,"No harvester, Manual weeding","Harvester, Nursery bed","Nursery setup, Custom hiring"
+Sonpur,842,"Millets, Wheat",Manual Tools,No major labor issues,"No harvester, Manual sowing",Paddy transplanter,Nursery setup
+Sonpur,1805,"Vegetables, Wheat, Millets, Paddy","Manual Tools, Harvester",None,"No seed drill, No harvester",Harvester,Bookkeeping
+Chandipur,1350,"Sugarcane, Wheat",Tractor,Need skilled labor,Manual sowing,"Harvester, Paddy transplanter","Nursery setup, Repair & maintenance"
+Sonpur,1368,"Millets, Sugarcane, Wheat","None, Sprayer",Harvest labor shortage,Manual sowing,Nursery bed,Repair & maintenance
+Agariya,1432,"Sugarcane, Paddy, Chana","Tractor, None",Harvest labor shortage,Manual weeding,Harvester,Nursery setup
+Malda,1094,"Paddy, Millets","Harvester, None",Labor migration,"No harvester, No weeder",Paddy transplanter,"Repair & maintenance, Machine handling"
+Buxar,2342,"Paddy, Chana",None,None,"No paddy planter, No weeder","Weeder, Seed drill","Bookkeeping, Repair & maintenance"
+Malda,1196,"Vegetables, Sugarcane, Wheat, Maize","Tractor, None",Harvest labor shortage,"No paddy planter, No harvester, Manual weeding",Sprayer,"Custom hiring, Bookkeeping"
+Rajpur,1390,"Maize, Mung, Chana, Sugarcane","Sprayer, Manual Tools, None",No major labor issues,"No harvester, Manual weeding","Nursery bed, Weeder","Repair & maintenance, Custom hiring"
+Kundesar,2844,"Sugarcane, Vegetables, Paddy","Tractor, None",None,No harvester,Sprayer,"Machine handling, Repair & maintenance"
+Dhanwar,888,"Paddy, Maize, Vegetables, Mung",Harvester,Labor migration,"No weeder, No paddy planter, No harvester","Sprayer, Harvester","Nursery setup, Machine handling"
+Sonpur,1273,"Sugarcane, Vegetables, Millets, Maize","Sprayer, Harvester, None",None,"Manual sowing, No seed drill, No paddy planter",Weeder,"Nursery setup, Bookkeeping"
+Kundesar,2449,"Wheat, Maize","Tractor, Harvester",Harvest labor shortage,Manual sowing,Nursery bed,Nursery setup
+Khurda,2909,"Chana, Wheat","None, Sprayer, Manual Tools",None,Manual sowing,"Seed drill, Weeder",Custom hiring
+Agariya,1033,"Wheat, Paddy, Millets, Maize",Manual Tools,No major labor issues,No weeder,"Seed drill, Harvester","Machine handling, Repair & maintenance"
+Kundesar,2963,"Maize, Wheat","Harvester, Tractor",Harvest labor shortage,Manual weeding,"Paddy transplanter, Sprayer","Machine handling, Nursery setup"
+Agariya,1208,"Mung, Maize","Manual Tools, None, Tractor",None,"Manual weeding, No weeder, No harvester",Nursery bed,Machine handling
+Pipra,1958,"Mung, Millets, Wheat","Harvester, Manual Tools, None",No major labor issues,"Manual sowing, No harvester, No seed drill","Paddy transplanter, Weeder","Nursery setup, Bookkeeping"
+Sonpur,1391,"Mung, Paddy, Wheat","Tractor, Harvester, Manual Tools",Need skilled labor,"No seed drill, Manual weeding, No paddy planter","Seed drill, Paddy transplanter",Machine handling
+Pipra,2033,"Sugarcane, Mung, Chana, Maize",Manual Tools,Labor migration,"Manual sowing, No paddy planter, No seed drill","Seed drill, Paddy transplanter",Nursery setup
+Dhanwar,2096,"Maize, Vegetables, Sugarcane, Wheat","Sprayer, Harvester",Harvest labor shortage,No seed drill,"Paddy transplanter, Sprayer","Nursery setup, Bookkeeping"
+Buxar,1726,"Wheat, Sugarcane, Maize, Vegetables","Sprayer, None",None,"Manual weeding, Manual sowing, No weeder","Seed drill, Sprayer","Custom hiring, Bookkeeping"
+Buxar,2924,"Millets, Mung, Paddy, Sugarcane",Tractor,Need skilled labor,"Manual sowing, No harvester, Manual weeding",Sprayer,"Nursery setup, Repair & maintenance"
+Rajpur,1340,"Chana, Sugarcane, Paddy, Maize","Tractor, Manual Tools",Labor migration,"No seed drill, No harvester, Manual weeding","Seed drill, Nursery bed",Bookkeeping
+Buxar,1857,"Chana, Vegetables, Mung","Manual Tools, Sprayer, Harvester",Labor migration,"No weeder, Manual weeding",Harvester,Bookkeeping
+Kundesar,2237,"Maize, Wheat, Sugarcane, Vegetables",Harvester,Harvest labor shortage,"Manual weeding, No seed drill",Sprayer,Custom hiring
+Buxar,1844,"Millets, Chana, Sugarcane","Harvester, Manual Tools",None,"No weeder, No seed drill, No paddy planter","Weeder, Harvester","Nursery setup, Repair & maintenance"
+Kundesar,607,"Sugarcane, Chana",Sprayer,Harvest labor shortage,No seed drill,Paddy transplanter,"Bookkeeping, Custom hiring"
+Chandipur,1057,"Sugarcane, Vegetables",Tractor,Labor migration,"No seed drill, No paddy planter","Seed drill, Sprayer",Repair & maintenance
+Buxar,905,"Sugarcane, Mung, Maize, Wheat",Sprayer,Need skilled labor,Manual sowing,Nursery bed,"Nursery setup, Machine handling"
+Sonpur,1646,"Paddy, Mung",Manual Tools,Labor migration,"No harvester, No seed drill","Seed drill, Sprayer",Machine handling
+Pipra,754,"Maize, Sugarcane","None, Sprayer",Need skilled labor,"No paddy planter, Manual sowing",Weeder,Bookkeeping
+Kundesar,2801,"Sugarcane, Mung, Maize","Manual Tools, Sprayer",Labor migration,"No weeder, No paddy planter, No seed drill","Seed drill, Paddy transplanter","Machine handling, Bookkeeping"
+Chandipur,1376,"Chana, Mung, Millets","Manual Tools, None",None,"No seed drill, No weeder","Sprayer, Paddy transplanter","Custom hiring, Nursery setup"
+Kundesar,1526,"Sugarcane, Mung, Vegetables, Chana","Tractor, Manual Tools, None",No major labor issues,No weeder,Paddy transplanter,"Repair & maintenance, Bookkeeping"
+Pipra,2466,"Paddy, Chana, Millets",None,No major labor issues,No paddy planter,Weeder,Machine handling
+Chandipur,2834,"Millets, Sugarcane","Tractor, Harvester, Manual Tools",None,No seed drill,"Harvester, Paddy transplanter",Bookkeeping
+Dhanwar,2483,"Mung, Chana, Wheat","Sprayer, Harvester",Labor migration,"No harvester, Manual sowing",Seed drill,"Nursery setup, Repair & maintenance"
+Pipra,1247,"Millets, Sugarcane, Chana, Maize",Sprayer,Harvest labor shortage,"No harvester, Manual weeding, No seed drill",Seed drill,Custom hiring
+Chandipur,1412,"Vegetables, Millets, Sugarcane","Manual Tools, Harvester",None,"Manual weeding, Manual sowing","Paddy transplanter, Seed drill","Custom hiring, Repair & maintenance"
+Malda,2103,"Millets, Paddy, Chana, Wheat",Tractor,Harvest labor shortage,"No harvester, No seed drill, No weeder","Paddy transplanter, Nursery bed","Machine handling, Repair & maintenance"
+Pipra,929,"Sugarcane, Mung","None, Tractor, Sprayer",No major labor issues,"No seed drill, No paddy planter",Harvester,Nursery setup
+Rajpur,1036,"Mung, Chana",Sprayer,None,"No weeder, No harvester",Seed drill,"Nursery setup, Bookkeeping"
+Kundesar,2695,"Wheat, Paddy",Manual Tools,None,"No harvester, No weeder, Manual weeding","Paddy transplanter, Nursery bed","Bookkeeping, Repair & maintenance"
+Kundesar,2565,"Sugarcane, Millets, Chana, Wheat","Tractor, Manual Tools, Sprayer",No major labor issues,"No weeder, Manual weeding, No seed drill",Sprayer,"Nursery setup, Bookkeeping"
+Chandipur,1483,"Vegetables, Mung",None,No major labor issues,"Manual weeding, No seed drill, No harvester","Nursery bed, Harvester",Repair & maintenance
+Sonpur,616,"Paddy, Sugarcane, Maize, Mung",Tractor,No major labor issues,"No seed drill, Manual weeding","Seed drill, Sprayer","Machine handling, Nursery setup"
+Dhanwar,737,"Vegetables, Sugarcane, Chana, Paddy","Manual Tools, None, Tractor",Labor migration,Manual sowing,"Paddy transplanter, Weeder",Custom hiring
+Chandipur,1591,"Millets, Maize",Sprayer,Harvest labor shortage,"No paddy planter, Manual sowing, No harvester",Harvester,Nursery setup
+Khurda,1599,"Chana, Vegetables, Paddy, Wheat","Manual Tools, Tractor",Need skilled labor,Manual weeding,Seed drill,Nursery setup
+Kundesar,2442,"Sugarcane, Chana","Manual Tools, Harvester",Need skilled labor,"No paddy planter, Manual sowing","Nursery bed, Sprayer",Repair & maintenance
+Agariya,2578,"Wheat, Maize, Chana, Paddy",None,No major labor issues,"Manual weeding, No paddy planter","Weeder, Seed drill","Custom hiring, Machine handling"
+Dhanwar,1495,"Maize, Paddy, Millets",None,Labor migration,Manual sowing,"Nursery bed, Harvester","Machine handling, Nursery setup"
+Malda,2111,"Maize, Wheat, Vegetables","None, Manual Tools",None,Manual weeding,Weeder,Bookkeeping
+Chandipur,1792,"Mung, Millets","Tractor, None, Manual Tools",None,"No paddy planter, No weeder, Manual sowing","Seed drill, Paddy transplanter",Bookkeeping
+Khurda,2694,"Paddy, Mung","None, Sprayer, Harvester",Need skilled labor,"No harvester, No weeder",Seed drill,Bookkeeping
+Buxar,715,"Maize, Vegetables, Wheat","Sprayer, Manual Tools, None",Harvest labor shortage,"No paddy planter, No harvester",Sprayer,Nursery setup
+Buxar,1744,"Wheat, Chana, Millets, Paddy",Sprayer,Labor migration,No harvester,"Seed drill, Nursery bed","Repair & maintenance, Custom hiring"
+Rajpur,1995,"Maize, Wheat, Millets","Manual Tools, None, Sprayer",Labor migration,"No seed drill, No paddy planter",Harvester,Nursery setup
+Chandipur,1696,"Wheat, Millets","Harvester, None",None,No harvester,"Weeder, Paddy transplanter",Bookkeeping
+Rajpur,2260,"Millets, Mung, Chana, Vegetables","Sprayer, None, Harvester",No major labor issues,"No harvester, No weeder","Paddy transplanter, Weeder",Nursery setup
+Sonpur,1470,"Sugarcane, Vegetables, Maize, Millets",None,Need skilled labor,"No weeder, No seed drill","Weeder, Harvester",Nursery setup
+Rajpur,2459,"Maize, Wheat, Mung",None,Harvest labor shortage,"No harvester, No weeder, Manual weeding","Nursery bed, Weeder","Nursery setup, Custom hiring"
+Malda,2067,"Chana, Vegetables, Sugarcane","Tractor, None, Harvester",None,"Manual weeding, No harvester",Nursery bed,"Machine handling, Custom hiring"
+Chandipur,1191,"Mung, Wheat, Sugarcane","Tractor, Sprayer",Harvest labor shortage,No weeder,"Harvester, Paddy transplanter","Machine handling, Nursery setup"
+Kundesar,614,"Millets, Wheat, Paddy, Maize",Harvester,None,"No weeder, No harvester, Manual sowing","Harvester, Nursery bed",Repair & maintenance
+Kundesar,862,"Wheat, Maize, Millets, Mung","Harvester, Sprayer",No major labor issues,Manual weeding,"Paddy transplanter, Nursery bed",Nursery setup
+Kundesar,514,"Chana, Vegetables, Mung, Sugarcane","Harvester, Tractor, Sprayer",Harvest labor shortage,No paddy planter,Paddy transplanter,Machine handling
+Dhanwar,1274,"Vegetables, Millets, Chana","Tractor, Harvester, Manual Tools",Need skilled labor,"Manual weeding, Manual sowing, No seed drill","Seed drill, Harvester","Repair & maintenance, Custom hiring"
+Sonpur,651,"Maize, Vegetables, Mung","Harvester, Manual Tools",Need skilled labor,"No harvester, Manual sowing, No paddy planter",Seed drill,Machine handling
+Rajpur,2240,"Millets, Sugarcane, Vegetables, Wheat","Harvester, None, Manual Tools",Labor migration,"No weeder, Manual sowing","Harvester, Seed drill","Machine handling, Custom hiring"
+Chandipur,1389,"Vegetables, Millets, Mung","None, Manual Tools",Labor migration,No weeder,Nursery bed,Bookkeeping
+Dhanwar,1261,"Sugarcane, Vegetables, Wheat",Sprayer,Harvest labor shortage,Manual sowing,Sprayer,"Machine handling, Nursery setup"
+Malda,1984,"Mung, Sugarcane","Manual Tools, Tractor, None",Need skilled labor,No harvester,Sprayer,"Custom hiring, Machine handling"
+Malda,1139,"Sugarcane, Maize","Harvester, Tractor",Labor migration,"No seed drill, Manual sowing, No weeder","Harvester, Sprayer","Repair & maintenance, Nursery setup"
+Pipra,2535,"Maize, Wheat, Chana, Mung","Sprayer, Tractor",Harvest labor shortage,"No seed drill, Manual sowing",Paddy transplanter,Nursery setup
+Pipra,1123,"Sugarcane, Maize, Vegetables","None, Sprayer, Harvester",Labor migration,"Manual weeding, No weeder, No seed drill",Sprayer,"Machine handling, Nursery setup"
+Chandipur,2606,"Vegetables, Sugarcane, Wheat, Paddy",Harvester,Need skilled labor,"No paddy planter, No seed drill, No harvester","Seed drill, Weeder","Custom hiring, Repair & maintenance"
+Buxar,935,"Sugarcane, Wheat, Paddy","Tractor, Harvester",No major labor issues,No harvester,"Nursery bed, Sprayer","Custom hiring, Repair & maintenance"
+Rajpur,1423,"Wheat, Vegetables, Chana","Sprayer, None, Tractor",None,"Manual weeding, Manual sowing, No paddy planter","Paddy transplanter, Seed drill","Custom hiring, Machine handling"
+Agariya,836,"Paddy, Sugarcane","None, Manual Tools, Harvester",None,"No weeder, Manual weeding","Nursery bed, Paddy transplanter",Bookkeeping
+Dhanwar,1801,"Vegetables, Chana, Mung, Sugarcane",Tractor,No major labor issues,No paddy planter,Weeder,Nursery setup
+Pipra,2943,"Millets, Chana, Wheat, Mung","None, Tractor",No major labor issues,No harvester,"Sprayer, Seed drill","Nursery setup, Custom hiring"
+Chandipur,2444,"Sugarcane, Mung, Vegetables, Millets","Tractor, None",No major labor issues,"Manual weeding, No seed drill, No weeder","Weeder, Paddy transplanter",Custom hiring
+Pipra,559,"Paddy, Vegetables",Sprayer,No major labor issues,No paddy planter,Seed drill,"Custom hiring, Repair & maintenance"
+Pipra,2350,"Mung, Wheat",Sprayer,Need skilled labor,"No weeder, Manual weeding, Manual sowing","Sprayer, Paddy transplanter","Repair & maintenance, Machine handling"
+Pipra,1742,"Millets, Sugarcane, Maize, Wheat",None,Harvest labor shortage,"No paddy planter, No harvester","Harvester, Nursery bed",Machine handling
+Agariya,2531,"Sugarcane, Wheat, Mung",Manual Tools,Need skilled labor,"Manual weeding, Manual sowing, No weeder","Harvester, Sprayer",Nursery setup
+Buxar,1003,"Wheat, Maize, Paddy, Mung",Sprayer,None,No harvester,Seed drill,Bookkeeping
+Kundesar,1709,"Sugarcane, Maize, Wheat, Millets","Manual Tools, Harvester",Labor migration,"Manual weeding, No weeder, No paddy planter",Harvester,Bookkeeping
+Khurda,1236,"Paddy, Wheat, Maize",None,None,No paddy planter,"Nursery bed, Sprayer","Machine handling, Repair & maintenance"
+Agariya,2624,"Wheat, Sugarcane, Maize","Tractor, Harvester, Sprayer",Need skilled labor,"No seed drill, No weeder, Manual weeding","Harvester, Seed drill",Repair & maintenance
+Chandipur,529,"Paddy, Wheat, Mung, Vegetables","Tractor, Harvester",No major labor issues,No paddy planter,Harvester,Nursery setup
+Dhanwar,2191,"Sugarcane, Chana, Vegetables, Maize","Sprayer, Manual Tools",Harvest labor shortage,No paddy planter,Paddy transplanter,"Custom hiring, Nursery setup"
+Sonpur,2360,"Wheat, Maize",Tractor,No major labor issues,"No weeder, Manual weeding","Sprayer, Seed drill",Repair & maintenance
+Buxar,1286,"Chana, Maize, Wheat, Paddy","Manual Tools, Sprayer, None",Labor migration,"No paddy planter, Manual weeding",Weeder,Machine handling
+Pipra,2438,"Vegetables, Sugarcane, Paddy",Sprayer,None,No seed drill,"Nursery bed, Sprayer",Bookkeeping
+Agariya,1947,"Mung, Vegetables, Paddy, Sugarcane",None,None,"No seed drill, Manual sowing, No harvester","Paddy transplanter, Nursery bed",Custom hiring
+Sonpur,2122,"Chana, Vegetables, Millets, Paddy","Manual Tools, None",Need skilled labor,"No paddy planter, No harvester, No seed drill",Sprayer,Repair & maintenance
+Sonpur,1582,"Maize, Wheat, Mung, Chana","None, Tractor",None,"No weeder, No harvester","Weeder, Sprayer",Machine handling
+Sonpur,2214,"Mung, Sugarcane",Harvester,Harvest labor shortage,No paddy planter,"Nursery bed, Paddy transplanter",Custom hiring
+Kundesar,2185,"Sugarcane, Mung, Maize","Sprayer, Harvester, Manual Tools",Harvest labor shortage,"No seed drill, Manual sowing, No weeder","Seed drill, Nursery bed",Machine handling
+Sonpur,1564,"Chana, Mung","Tractor, None, Sprayer",Harvest labor shortage,"No harvester, No seed drill, Manual sowing","Nursery bed, Seed drill","Bookkeeping, Repair & maintenance"
+Dhanwar,1532,"Mung, Chana","Sprayer, Tractor, None",Need skilled labor,"No harvester, Manual sowing, No paddy planter","Harvester, Paddy transplanter","Repair & maintenance, Custom hiring"
+Rajpur,918,"Vegetables, Chana, Paddy","Tractor, Harvester, Manual Tools",Labor migration,"No seed drill, No weeder, Manual weeding","Harvester, Weeder","Custom hiring, Bookkeeping"
+Kundesar,795,"Wheat, Sugarcane","Sprayer, Harvester",Need skilled labor,"No harvester, No weeder, No paddy planter","Seed drill, Harvester",Repair & maintenance
+Malda,1320,"Wheat, Sugarcane, Maize",Manual Tools,Harvest labor shortage,"No seed drill, Manual weeding","Sprayer, Seed drill","Repair & maintenance, Custom hiring"
+Sonpur,2385,"Mung, Sugarcane, Millets, Vegetables",None,Harvest labor shortage,"No harvester, Manual weeding, No weeder",Sprayer,Bookkeeping
+Buxar,2784,"Wheat, Millets, Chana","Tractor, None, Harvester",Harvest labor shortage,No weeder,"Harvester, Paddy transplanter",Bookkeeping
+Pipra,2252,"Chana, Vegetables, Mung",Harvester,Harvest labor shortage,No paddy planter,Sprayer,"Custom hiring, Nursery setup"
+Khurda,2052,"Chana, Wheat, Sugarcane, Millets","None, Harvester",No major labor issues,No weeder,Weeder,"Repair & maintenance, Nursery setup"
+Pipra,658,"Wheat, Sugarcane, Maize",None,Labor migration,"No seed drill, Manual sowing",Paddy transplanter,"Bookkeeping, Repair & maintenance"
+Kundesar,963,"Sugarcane, Millets, Wheat","Manual Tools, None, Harvester",Labor migration,No weeder,Weeder,Nursery setup
+Malda,2632,"Millets, Maize, Mung","Manual Tools, None",No major labor issues,"Manual sowing, No paddy planter",Harvester,"Nursery setup, Machine handling"
+Chandipur,2691,"Paddy, Millets, Chana, Vegetables","None, Harvester, Manual Tools",None,"Manual sowing, No harvester, No paddy planter","Weeder, Nursery bed",Repair & maintenance
+Sonpur,2626,"Wheat, Paddy","None, Sprayer, Harvester",Labor migration,No paddy planter,"Weeder, Nursery bed","Custom hiring, Repair & maintenance"
+Chandipur,2197,"Chana, Vegetables","Tractor, Harvester, None",No major labor issues,"No harvester, Manual sowing, No seed drill",Nursery bed,Custom hiring
+Chandipur,1188,"Maize, Mung",Manual Tools,Need skilled labor,"Manual weeding, No harvester, No paddy planter","Paddy transplanter, Sprayer","Machine handling, Custom hiring"
+Dhanwar,1611,"Sugarcane, Vegetables","None, Tractor",None,"No harvester, Manual sowing",Weeder,Bookkeeping
+Malda,2731,"Mung, Wheat","Tractor, None",Need skilled labor,No harvester,"Nursery bed, Seed drill","Machine handling, Custom hiring"
+Pipra,1552,"Chana, Millets, Paddy",None,No major labor issues,"Manual sowing, No seed drill","Nursery bed, Weeder","Machine handling, Custom hiring"
+Dhanwar,2509,"Mung, Wheat, Paddy, Millets","Manual Tools, Tractor, None",Harvest labor shortage,"No seed drill, Manual weeding, No weeder","Sprayer, Nursery bed","Custom hiring, Machine handling"
+Agariya,844,"Chana, Maize","Sprayer, Harvester, Tractor",Need skilled labor,"Manual sowing, Manual weeding","Weeder, Sprayer",Machine handling
+Malda,853,"Maize, Vegetables, Chana, Sugarcane","None, Tractor",Labor migration,"No weeder, No paddy planter",Paddy transplanter,Machine handling
+Kundesar,649,"Paddy, Sugarcane, Mung","Harvester, None",Harvest labor shortage,No weeder,Paddy transplanter,"Bookkeeping, Repair & maintenance"
+Pipra,1349,"Millets, Wheat, Vegetables, Sugarcane",Manual Tools,No major labor issues,"Manual weeding, No harvester",Harvester,"Custom hiring, Nursery setup"
+Malda,708,"Millets, Vegetables","None, Tractor, Manual Tools",No major labor issues,"No weeder, Manual weeding, No paddy planter","Sprayer, Seed drill",Nursery setup
+Buxar,1373,"Vegetables, Paddy, Chana, Mung",None,Labor migration,"No seed drill, Manual weeding","Seed drill, Nursery bed",Custom hiring
+Rajpur,1852,"Chana, Sugarcane, Paddy, Vegetables","Harvester, Tractor",Labor migration,No paddy planter,Seed drill,Custom hiring
+Pipra,1692,"Mung, Maize, Vegetables","Manual Tools, Harvester, Sprayer",No major labor issues,"No paddy planter, No harvester, Manual weeding",Harvester,"Nursery setup, Bookkeeping"
+Malda,2336,"Maize, Sugarcane, Paddy","Tractor, Harvester, Sprayer",Labor migration,"No seed drill, No weeder, No harvester",Seed drill,Bookkeeping
+Buxar,1366,"Wheat, Sugarcane","Sprayer, None, Harvester",No major labor issues,"No seed drill, No harvester",Harvester,Machine handling
+Rajpur,1112,"Sugarcane, Vegetables, Mung, Paddy","Harvester, Manual Tools, Sprayer",Harvest labor shortage,No paddy planter,"Paddy transplanter, Seed drill","Custom hiring, Nursery setup"
+Rajpur,2356,"Wheat, Millets, Mung","Sprayer, Tractor, Manual Tools",None,"Manual sowing, No harvester, No seed drill","Weeder, Harvester","Bookkeeping, Repair & maintenance"
+Agariya,1892,"Wheat, Paddy, Chana","Manual Tools, Sprayer",Labor migration,"No weeder, No paddy planter, No harvester","Nursery bed, Seed drill","Nursery setup, Bookkeeping"
+Malda,2440,"Millets, Wheat, Sugarcane","None, Sprayer",Harvest labor shortage,Manual weeding,"Sprayer, Seed drill",Bookkeeping
+Pipra,531,"Sugarcane, Millets, Mung, Wheat","Tractor, None",Labor migration,"Manual weeding, No harvester",Harvester,Nursery setup
+Chandipur,1604,"Vegetables, Maize, Chana","Manual Tools, Sprayer",No major labor issues,"No harvester, No weeder, No seed drill",Sprayer,Custom hiring
+Khurda,1126,"Maize, Paddy, Vegetables, Mung","Sprayer, Manual Tools",None,"No harvester, No paddy planter","Seed drill, Harvester",Repair & maintenance
+Pipra,1878,"Chana, Millets",Manual Tools,Harvest labor shortage,No paddy planter,Sprayer,Bookkeeping
+Pipra,1705,"Sugarcane, Millets, Maize","Tractor, Harvester",Labor migration,"No weeder, Manual sowing, Manual weeding",Weeder,"Custom hiring, Machine handling"
+Buxar,1020,"Wheat, Paddy","Harvester, Sprayer, Tractor",Labor migration,No weeder,Sprayer,Custom hiring
+Pipra,1677,"Millets, Wheat, Sugarcane","None, Manual Tools, Sprayer",Harvest labor shortage,"Manual sowing, Manual weeding, No weeder","Nursery bed, Paddy transplanter","Repair & maintenance, Bookkeeping"
+Kundesar,1889,"Wheat, Chana, Paddy, Millets","Harvester, Manual Tools",No major labor issues,"No paddy planter, No weeder","Seed drill, Sprayer",Bookkeeping
+Khurda,2707,"Chana, Paddy",Sprayer,Labor migration,No weeder,"Sprayer, Paddy transplanter","Repair & maintenance, Nursery setup"
+Malda,2616,"Vegetables, Chana, Millets","Tractor, Manual Tools, None",Need skilled labor,No weeder,Sprayer,Custom hiring
+Sonpur,1731,"Paddy, Wheat, Chana","Sprayer, Tractor, Manual Tools",Labor migration,"Manual sowing, No seed drill, No paddy planter",Paddy transplanter,Bookkeeping
+Pipra,1867,"Chana, Mung, Vegetables, Millets","Harvester, Manual Tools, Sprayer",No major labor issues,"No harvester, No paddy planter, No seed drill","Harvester, Weeder",Machine handling
+Agariya,2496,"Paddy, Maize, Mung","Harvester, Manual Tools",Labor migration,"No seed drill, No paddy planter, Manual weeding",Nursery bed,"Repair & maintenance, Bookkeeping"
+Chandipur,791,"Vegetables, Chana, Millets","Tractor, None, Sprayer",None,"Manual weeding, No paddy planter, Manual sowing",Sprayer,Nursery setup
+Khurda,2074,"Maize, Paddy","None, Manual Tools, Sprayer",Labor migration,"Manual sowing, Manual weeding, No harvester",Weeder,Bookkeeping
+Dhanwar,780,"Mung, Chana, Paddy","Harvester, None",Need skilled labor,"No seed drill, Manual weeding, Manual sowing","Harvester, Seed drill",Machine handling
+Khurda,1277,"Mung, Chana","Tractor, Harvester, Sprayer",Harvest labor shortage,"Manual sowing, No paddy planter, No harvester","Weeder, Sprayer","Bookkeeping, Machine handling"
+Khurda,1816,"Chana, Millets, Maize","Tractor, Manual Tools",Labor migration,"No harvester, Manual weeding",Weeder,"Bookkeeping, Nursery setup"
+Sonpur,1059,"Maize, Vegetables, Wheat","Tractor, Harvester, Manual Tools",Need skilled labor,"Manual weeding, No harvester","Sprayer, Seed drill",Custom hiring
+Rajpur,1673,"Sugarcane, Paddy, Mung",None,No major labor issues,No paddy planter,"Paddy transplanter, Sprayer","Custom hiring, Nursery setup"
+Rajpur,2222,"Vegetables, Maize, Wheat, Millets",Manual Tools,Harvest labor shortage,"No seed drill, No paddy planter",Harvester,Repair & maintenance
+Malda,2080,"Paddy, Mung, Vegetables, Wheat",Sprayer,None,"No seed drill, Manual weeding",Harvester,Custom hiring
+Dhanwar,1416,"Chana, Sugarcane, Vegetables, Maize",Harvester,Need skilled labor,"Manual weeding, No weeder","Paddy transplanter, Weeder","Machine handling, Nursery setup"
+Rajpur,1464,"Maize, Mung","Harvester, Manual Tools, None",Labor migration,Manual weeding,"Weeder, Nursery bed",Repair & maintenance
+Khurda,2948,"Vegetables, Millets",Manual Tools,None,Manual sowing,"Nursery bed, Weeder",Custom hiring
+Buxar,745,"Sugarcane, Mung, Chana",Manual Tools,Harvest labor shortage,"No seed drill, No harvester, Manual sowing",Harvester,Repair & maintenance
+Chandipur,2259,"Maize, Mung","Manual Tools, None, Tractor",Labor migration,"No seed drill, No weeder, No harvester","Harvester, Paddy transplanter","Repair & maintenance, Machine handling"
+Kundesar,2140,"Mung, Chana, Paddy",Manual Tools,Labor migration,"No seed drill, No weeder","Harvester, Nursery bed",Custom hiring
+Dhanwar,2304,"Sugarcane, Paddy","Tractor, None",None,"Manual weeding, No paddy planter",Sprayer,"Machine handling, Nursery setup"
+Sonpur,2713,"Mung, Chana, Wheat, Maize",Sprayer,None,"No harvester, Manual weeding","Nursery bed, Harvester",Custom hiring
+Agariya,1328,"Mung, Millets","Sprayer, Harvester",Need skilled labor,"No seed drill, No paddy planter",Sprayer,"Repair & maintenance, Bookkeeping"
+Rajpur,1762,"Maize, Millets, Chana, Paddy","None, Harvester",No major labor issues,"Manual sowing, No paddy planter, No seed drill","Nursery bed, Paddy transplanter",Nursery setup
+Buxar,503,"Paddy, Chana",Tractor,No major labor issues,"No seed drill, Manual sowing",Weeder,"Repair & maintenance, Bookkeeping"
+Buxar,2837,"Vegetables, Sugarcane, Chana","Sprayer, Harvester",No major labor issues,Manual weeding,"Paddy transplanter, Sprayer",Custom hiring
+Khurda,2149,"Millets, Wheat, Chana","Harvester, Sprayer",Labor migration,"Manual weeding, No harvester, No weeder","Paddy transplanter, Sprayer","Repair & maintenance, Machine handling"
+Chandipur,2915,"Paddy, Sugarcane, Wheat","Tractor, Manual Tools",Harvest labor shortage,"No harvester, No seed drill, No weeder","Seed drill, Paddy transplanter",Machine handling
+Pipra,2609,"Chana, Wheat, Sugarcane",Sprayer,No major labor issues,"Manual weeding, No seed drill, No weeder",Sprayer,Bookkeeping
+Khurda,591,"Vegetables, Paddy, Maize","Sprayer, Tractor",Labor migration,"Manual weeding, No paddy planter, No seed drill","Nursery bed, Paddy transplanter",Custom hiring
+Agariya,1596,"Wheat, Paddy","Manual Tools, Harvester",No major labor issues,"No paddy planter, No harvester",Sprayer,"Bookkeeping, Repair & maintenance"
+Malda,1459,"Paddy, Wheat, Vegetables",Sprayer,Need skilled labor,"No paddy planter, No weeder, Manual weeding","Nursery bed, Seed drill",Machine handling
+Sonpur,2106,"Maize, Mung",Sprayer,No major labor issues,"No seed drill, Manual sowing, Manual weeding",Seed drill,Machine handling
+Rajpur,1158,"Sugarcane, Paddy, Millets","Harvester, None",No major labor issues,Manual weeding,"Harvester, Weeder",Bookkeeping
+Malda,740,"Chana, Vegetables, Sugarcane","None, Harvester, Tractor",Need skilled labor,"No seed drill, No weeder",Weeder,Repair & maintenance
+Agariya,2530,"Sugarcane, Paddy, Wheat","Manual Tools, Harvester",Harvest labor shortage,"No paddy planter, No seed drill",Weeder,"Custom hiring, Machine handling"
+Rajpur,2718,"Vegetables, Chana","None, Sprayer",Harvest labor shortage,No seed drill,Seed drill,"Bookkeeping, Repair & maintenance"
+Agariya,2735,"Wheat, Mung, Maize, Paddy",Tractor,Need skilled labor,"No paddy planter, Manual weeding",Nursery bed,"Repair & maintenance, Custom hiring"
+Rajpur,2199,"Millets, Sugarcane, Paddy","None, Tractor",Labor migration,"Manual sowing, No weeder, No seed drill","Seed drill, Nursery bed",Bookkeeping
+Kundesar,2282,"Maize, Vegetables, Sugarcane, Paddy",None,No major labor issues,No weeder,"Weeder, Paddy transplanter","Repair & maintenance, Bookkeeping"
+Malda,1040,"Paddy, Millets, Chana","Sprayer, Harvester",No major labor issues,"Manual sowing, No seed drill, Manual weeding","Sprayer, Weeder",Custom hiring
+Rajpur,645,"Maize, Wheat",None,Labor migration,"Manual sowing, No seed drill, No weeder","Seed drill, Paddy transplanter","Bookkeeping, Nursery setup"
+Pipra,2311,"Mung, Sugarcane",Tractor,Harvest labor shortage,"No seed drill, No weeder, Manual weeding","Seed drill, Harvester","Bookkeeping, Nursery setup"
+Rajpur,2328,"Wheat, Sugarcane, Chana, Vegetables","Manual Tools, Sprayer",Labor migration,Manual sowing,Paddy transplanter,Repair & maintenance
+Khurda,1504,"Wheat, Sugarcane","Tractor, Harvester",Need skilled labor,"No harvester, Manual sowing",Harvester,"Custom hiring, Nursery setup"
+Sonpur,871,"Millets, Wheat, Paddy, Maize","Harvester, None",None,"Manual weeding, Manual sowing, No harvester",Nursery bed,"Machine handling, Nursery setup"
+Khurda,2507,"Wheat, Maize, Vegetables","None, Sprayer",Labor migration,"Manual weeding, Manual sowing, No paddy planter",Paddy transplanter,Custom hiring
+Khurda,2396,"Chana, Paddy, Vegetables","Tractor, Sprayer, Manual Tools",Harvest labor shortage,"No weeder, Manual sowing",Seed drill,"Bookkeeping, Nursery setup"
+Agariya,1423,"Sugarcane, Paddy, Millets",None,Need skilled labor,"Manual weeding, No paddy planter","Paddy transplanter, Sprayer","Repair & maintenance, Custom hiring"
+Khurda,1536,"Mung, Paddy","Harvester, Manual Tools, Tractor",Harvest labor shortage,No seed drill,"Nursery bed, Paddy transplanter",Nursery setup
+Kundesar,2756,"Wheat, Mung, Maize, Millets",Harvester,No major labor issues,No weeder,Harvester,Nursery setup
+Chandipur,887,"Paddy, Maize, Wheat","None, Sprayer, Tractor",No major labor issues,"No paddy planter, No weeder, Manual sowing",Paddy transplanter,"Bookkeeping, Nursery setup"
+Malda,1531,"Millets, Mung, Sugarcane",Tractor,No major labor issues,"Manual sowing, No paddy planter",Seed drill,"Machine handling, Nursery setup"
+Rajpur,1564,"Paddy, Maize","Harvester, Manual Tools, None",Need skilled labor,No seed drill,"Seed drill, Weeder",Custom hiring
+Rajpur,741,"Millets, Chana, Wheat","None, Harvester, Sprayer",Labor migration,"No seed drill, Manual weeding, No weeder",Seed drill,Machine handling
+Rajpur,1043,"Sugarcane, Millets, Paddy, Mung","Sprayer, Harvester",Harvest labor shortage,Manual sowing,"Seed drill, Harvester",Repair & maintenance
+Sonpur,2554,"Maize, Sugarcane, Vegetables","Harvester, None",None,"No paddy planter, Manual sowing",Seed drill,Bookkeeping
+Agariya,2451,"Mung, Paddy",Tractor,No major labor issues,"Manual weeding, No harvester","Weeder, Harvester","Bookkeeping, Machine handling"
+Buxar,1007,"Paddy, Mung, Chana, Sugarcane",Manual Tools,None,No harvester,"Weeder, Sprayer",Custom hiring
+Dhanwar,536,"Mung, Millets","Manual Tools, Harvester, None",Harvest labor shortage,"Manual sowing, Manual weeding, No harvester","Paddy transplanter, Weeder",Machine handling
+Agariya,2977,"Millets, Sugarcane","Tractor, Sprayer",Labor migration,"No weeder, No seed drill, Manual sowing",Paddy transplanter,Nursery setup
+Rajpur,1742,"Vegetables, Sugarcane, Millets, Paddy","None, Manual Tools",No major labor issues,"No paddy planter, Manual sowing",Weeder,Nursery setup
+Rajpur,2545,"Millets, Chana, Wheat","Sprayer, Harvester, None",Need skilled labor,No seed drill,Weeder,"Nursery setup, Bookkeeping"
+Chandipur,633,"Chana, Paddy, Mung, Millets","Manual Tools, Sprayer, Harvester",Need skilled labor,"Manual sowing, No paddy planter, No harvester",Sprayer,Bookkeeping
+Chandipur,2431,"Maize, Wheat",Tractor,No major labor issues,Manual weeding,Seed drill,Repair & maintenance
+Rajpur,2123,"Mung, Maize, Chana, Vegetables","Sprayer, Tractor",Need skilled labor,No weeder,Sprayer,"Custom hiring, Machine handling"
+Agariya,1329,"Chana, Sugarcane, Wheat, Maize","None, Sprayer, Harvester",Need skilled labor,"No seed drill, Manual weeding","Nursery bed, Sprayer",Nursery setup
+Sonpur,1172,"Maize, Vegetables",Tractor,Labor migration,"Manual sowing, Manual weeding",Seed drill,Machine handling
+Malda,2419,"Wheat, Vegetables, Millets",Sprayer,None,Manual weeding,Seed drill,"Machine handling, Bookkeeping"
+Khurda,1528,"Millets, Mung, Sugarcane","None, Sprayer",Harvest labor shortage,Manual weeding,"Seed drill, Weeder","Repair & maintenance, Nursery setup"
+Dhanwar,733,"Paddy, Mung","None, Tractor",None,Manual weeding,Seed drill,"Nursery setup, Custom hiring"
+Rajpur,2971,"Maize, Vegetables, Mung","Tractor, Harvester, Sprayer",Labor migration,Manual weeding,"Weeder, Seed drill","Custom hiring, Repair & maintenance"
+Pipra,2169,"Chana, Sugarcane, Paddy, Wheat","Tractor, Sprayer, Harvester",None,No harvester,"Harvester, Weeder","Custom hiring, Nursery setup"
+Buxar,1606,"Mung, Wheat, Millets, Sugarcane","Tractor, Harvester, None",Labor migration,Manual sowing,"Paddy transplanter, Nursery bed",Repair & maintenance
+Kundesar,774,"Chana, Millets","None, Sprayer, Manual Tools",Need skilled labor,"No seed drill, Manual weeding",Paddy transplanter,Machine handling
+Chandipur,2708,"Mung, Wheat","Tractor, Manual Tools",No major labor issues,"No seed drill, No paddy planter, No weeder","Seed drill, Paddy transplanter","Nursery setup, Machine handling"
+Agariya,2341,"Millets, Wheat, Vegetables",None,Need skilled labor,"No seed drill, Manual sowing, No paddy planter",Sprayer,Machine handling
+Rajpur,1229,"Wheat, Paddy, Chana",Sprayer,Need skilled labor,"No paddy planter, No seed drill","Weeder, Paddy transplanter","Repair & maintenance, Machine handling"
+Malda,2239,"Sugarcane, Wheat, Maize, Millets","Sprayer, None, Manual Tools",Need skilled labor,"No harvester, Manual sowing",Weeder,Repair & maintenance
+Chandipur,2778,"Sugarcane, Wheat","Tractor, Manual Tools",Labor migration,No harvester,"Seed drill, Nursery bed","Machine handling, Bookkeeping"
+Rajpur,2737,"Millets, Mung","Harvester, Tractor",No major labor issues,No weeder,"Seed drill, Sprayer",Nursery setup
+Kundesar,1183,"Vegetables, Paddy","Manual Tools, Tractor",Labor migration,"No seed drill, No paddy planter",Weeder,"Repair & maintenance, Nursery setup"
+Malda,2444,"Vegetables, Wheat, Maize","Tractor, Harvester",None,No seed drill,"Seed drill, Paddy transplanter",Machine handling
+Agariya,1723,"Wheat, Sugarcane","None, Sprayer",No major labor issues,No paddy planter,Weeder,Machine handling
+Buxar,785,"Sugarcane, Vegetables",Sprayer,Need skilled labor,"No paddy planter, Manual sowing, No weeder","Nursery bed, Sprayer",Bookkeeping
+Pipra,1826,"Paddy, Vegetables, Chana, Millets",Tractor,Need skilled labor,"No seed drill, No weeder, Manual weeding","Seed drill, Harvester",Repair & maintenance
+Khurda,1300,"Paddy, Vegetables",Harvester,Labor migration,No harvester,"Sprayer, Paddy transplanter","Nursery setup, Custom hiring"
+Buxar,576,"Chana, Wheat","Sprayer, Harvester",No major labor issues,"No paddy planter, Manual weeding","Sprayer, Harvester",Repair & maintenance
+Khurda,2403,"Vegetables, Paddy",Tractor,None,No seed drill,"Nursery bed, Weeder","Custom hiring, Machine handling"
+Malda,1036,"Chana, Millets","None, Sprayer",None,"No harvester, Manual weeding","Weeder, Paddy transplanter",Machine handling
+Chandipur,2642,"Wheat, Vegetables, Sugarcane","None, Harvester",Need skilled labor,No harvester,"Sprayer, Seed drill",Custom hiring
+Kundesar,1253,"Wheat, Paddy","Tractor, Manual Tools",No major labor issues,"No seed drill, No paddy planter, Manual weeding",Seed drill,Nursery setup
+Chandipur,1371,"Maize, Chana, Sugarcane, Paddy","Manual Tools, None, Sprayer",Need skilled labor,No weeder,"Nursery bed, Paddy transplanter",Repair & maintenance
+Dhanwar,960,"Wheat, Paddy, Sugarcane",Sprayer,No major labor issues,"No harvester, Manual weeding, No paddy planter",Harvester,"Repair & maintenance, Bookkeeping"
+Kundesar,1581,"Millets, Paddy, Wheat","None, Manual Tools, Sprayer",Labor migration,"Manual weeding, No weeder",Harvester,"Bookkeeping, Machine handling"
+Pipra,549,"Chana, Millets, Mung","Manual Tools, Sprayer, Harvester",No major labor issues,Manual sowing,"Sprayer, Paddy transplanter",Machine handling
+Sonpur,1149,"Vegetables, Paddy, Wheat, Maize","Harvester, Sprayer, Tractor",Harvest labor shortage,"Manual sowing, No harvester, No seed drill",Nursery bed,Custom hiring
+Rajpur,515,"Vegetables, Wheat, Chana, Millets",Tractor,Harvest labor shortage,"No harvester, No weeder","Paddy transplanter, Sprayer",Machine handling
+Rajpur,2127,"Chana, Mung","Manual Tools, None",Labor migration,"Manual sowing, No paddy planter",Nursery bed,Repair & maintenance
+Buxar,2075,"Wheat, Mung","Sprayer, Manual Tools",Labor migration,Manual weeding,Harvester,"Bookkeeping, Nursery setup"
+Kundesar,1736,"Vegetables, Maize, Paddy, Sugarcane","Manual Tools, None",None,Manual sowing,"Paddy transplanter, Weeder","Bookkeeping, Nursery setup"
+Khurda,2013,"Mung, Paddy, Maize, Sugarcane","Manual Tools, Sprayer, Tractor",Need skilled labor,Manual weeding,"Paddy transplanter, Nursery bed",Nursery setup
+Kundesar,2308,"Maize, Paddy","Harvester, Manual Tools",Labor migration,"Manual weeding, No harvester, No paddy planter",Seed drill,Machine handling
+Chandipur,2344,"Vegetables, Mung, Chana, Paddy","Harvester, Tractor, Manual Tools",Labor migration,No paddy planter,Sprayer,Machine handling
+Kundesar,2403,"Millets, Mung",Tractor,Labor migration,"No weeder, No paddy planter",Paddy transplanter,Machine handling
+Sonpur,2307,"Vegetables, Millets, Paddy, Wheat","None, Tractor, Manual Tools",Need skilled labor,"No seed drill, Manual sowing, Manual weeding","Weeder, Sprayer","Machine handling, Repair & maintenance"
+Agariya,2672,"Paddy, Mung, Wheat, Vegetables","Tractor, Manual Tools",None,"No harvester, No paddy planter","Weeder, Sprayer","Bookkeeping, Nursery setup"
+Pipra,1098,"Wheat, Maize",Sprayer,Labor migration,"No harvester, No seed drill",Seed drill,"Bookkeeping, Nursery setup"
+Dhanwar,1633,"Chana, Wheat",None,None,"No seed drill, No paddy planter",Paddy transplanter,"Custom hiring, Nursery setup"
+Buxar,2823,"Chana, Sugarcane, Wheat","Harvester, None, Manual Tools",None,"No paddy planter, Manual sowing, No weeder","Sprayer, Weeder","Custom hiring, Nursery setup"
+Dhanwar,1772,"Wheat, Paddy","Manual Tools, None, Tractor",Labor migration,"Manual weeding, No harvester","Nursery bed, Weeder",Bookkeeping
+Dhanwar,2896,"Vegetables, Millets, Paddy",Sprayer,Need skilled labor,No harvester,Paddy transplanter,"Bookkeeping, Machine handling"
+Kundesar,2445,"Sugarcane, Chana","Manual Tools, None",No major labor issues,Manual sowing,"Weeder, Nursery bed","Bookkeeping, Repair & maintenance"
+Malda,1440,"Paddy, Maize, Wheat",Tractor,None,"No paddy planter, No weeder, No harvester",Sprayer,Custom hiring
+Malda,591,"Vegetables, Mung, Wheat, Maize",Tractor,Need skilled labor,No paddy planter,Harvester,"Bookkeeping, Machine handling"
+Rajpur,2720,"Vegetables, Chana","Tractor, Manual Tools",No major labor issues,"No paddy planter, No seed drill, Manual sowing","Weeder, Sprayer",Custom hiring
+Pipra,1927,"Maize, Millets, Vegetables",Tractor,None,Manual sowing,Weeder,"Machine handling, Custom hiring"
+Buxar,1717,"Vegetables, Maize","Harvester, Tractor",None,"No paddy planter, No seed drill, Manual weeding",Paddy transplanter,Machine handling
+Dhanwar,1588,"Chana, Paddy, Millets, Vegetables","Manual Tools, Sprayer, Tractor",Harvest labor shortage,"Manual sowing, No weeder, No harvester",Sprayer,Repair & maintenance
+Malda,869,"Paddy, Vegetables, Sugarcane, Mung",Manual Tools,Labor migration,"No seed drill, No harvester","Seed drill, Sprayer","Machine handling, Bookkeeping"
+Malda,1288,"Maize, Sugarcane, Vegetables","Harvester, None, Manual Tools",None,"No paddy planter, No harvester",Seed drill,Custom hiring
+Pipra,1920,"Wheat, Mung",Sprayer,Labor migration,No harvester,Seed drill,Nursery setup
+Buxar,976,"Sugarcane, Chana","Manual Tools, None",Labor migration,"No paddy planter, No harvester, Manual sowing","Sprayer, Seed drill",Machine handling
+Malda,2264,"Sugarcane, Maize, Millets","Manual Tools, Harvester, Tractor",Labor migration,"Manual weeding, No paddy planter",Nursery bed,"Nursery setup, Machine handling"
+Buxar,1445,"Vegetables, Wheat, Mung, Millets","Harvester, None",Need skilled labor,No paddy planter,"Sprayer, Seed drill","Bookkeeping, Nursery setup"
+Buxar,2300,"Vegetables, Paddy, Mung","Sprayer, Manual Tools, Harvester",No major labor issues,"No seed drill, Manual sowing","Nursery bed, Sprayer","Repair & maintenance, Bookkeeping"
+Rajpur,1563,"Vegetables, Mung","None, Harvester",No major labor issues,"No seed drill, No weeder, No harvester","Harvester, Paddy transplanter","Nursery setup, Custom hiring"
+Chandipur,1373,"Chana, Maize, Mung","Sprayer, Tractor, Harvester",Labor migration,"Manual sowing, No weeder, Manual weeding","Weeder, Paddy transplanter","Bookkeeping, Machine handling"
+Malda,2830,"Vegetables, Mung, Sugarcane, Paddy",Manual Tools,Need skilled labor,"No seed drill, Manual weeding, No weeder",Weeder,Repair & maintenance
+Khurda,1317,"Vegetables, Maize, Chana, Wheat","Manual Tools, Sprayer, None",Labor migration,"No paddy planter, Manual weeding",Seed drill,Machine handling
+Malda,2916,"Wheat, Mung",Manual Tools,None,"No harvester, Manual weeding","Sprayer, Paddy transplanter","Repair & maintenance, Nursery setup"
+Dhanwar,1859,"Wheat, Sugarcane","Tractor, None, Manual Tools",Labor migration,"Manual weeding, No seed drill, No paddy planter",Seed drill,Nursery setup
+Chandipur,944,"Sugarcane, Vegetables, Wheat, Maize","None, Sprayer, Tractor",None,"No weeder, No seed drill, No paddy planter",Harvester,"Machine handling, Repair & maintenance"
+Buxar,1556,"Wheat, Paddy","Harvester, None, Manual Tools",Harvest labor shortage,"Manual weeding, No harvester","Sprayer, Weeder",Repair & maintenance
+Chandipur,1489,"Mung, Sugarcane, Paddy, Wheat","Tractor, Manual Tools, Harvester",Need skilled labor,"Manual sowing, No seed drill",Sprayer,"Repair & maintenance, Nursery setup"
+Buxar,2700,"Mung, Sugarcane, Paddy","Harvester, None, Tractor",Labor migration,Manual weeding,"Sprayer, Nursery bed",Custom hiring
+Buxar,1257,"Vegetables, Chana, Sugarcane, Paddy",None,None,"Manual sowing, Manual weeding, No paddy planter","Harvester, Paddy transplanter","Custom hiring, Machine handling"
+Agariya,1468,"Mung, Maize, Millets",Manual Tools,Harvest labor shortage,No harvester,Nursery bed,Repair & maintenance
+Chandipur,542,"Millets, Mung","Manual Tools, Sprayer, None",Labor migration,"No weeder, Manual sowing, No harvester",Paddy transplanter,Custom hiring
+Pipra,2092,"Chana, Maize","None, Sprayer",Labor migration,"No seed drill, Manual weeding, Manual sowing","Paddy transplanter, Nursery bed","Custom hiring, Nursery setup"
+Dhanwar,2810,"Sugarcane, Maize","Manual Tools, Harvester, Sprayer",Need skilled labor,No paddy planter,Paddy transplanter,"Repair & maintenance, Nursery setup"
+Sonpur,1677,"Sugarcane, Millets, Chana, Mung",Manual Tools,Need skilled labor,"Manual sowing, Manual weeding",Harvester,Repair & maintenance
+Sonpur,2540,"Millets, Sugarcane, Mung, Chana",Sprayer,Labor migration,"Manual weeding, No paddy planter, No seed drill","Paddy transplanter, Harvester",Machine handling
+Sonpur,1633,"Sugarcane, Wheat","Tractor, None, Sprayer",No major labor issues,"No weeder, No paddy planter","Paddy transplanter, Sprayer","Custom hiring, Machine handling"
+Rajpur,2587,"Wheat, Mung, Chana",Harvester,Labor migration,"Manual sowing, No harvester, No seed drill","Nursery bed, Sprayer",Machine handling
+Agariya,1752,"Sugarcane, Vegetables, Wheat, Chana","None, Manual Tools",No major labor issues,"No harvester, No weeder, Manual weeding","Nursery bed, Harvester",Machine handling
+Chandipur,1892,"Maize, Sugarcane","Tractor, None",Need skilled labor,No harvester,"Nursery bed, Paddy transplanter",Custom hiring
+Kundesar,1596,"Maize, Millets","Sprayer, Harvester, None",None,"Manual sowing, No harvester, No seed drill",Paddy transplanter,"Custom hiring, Nursery setup"
+Rajpur,1804,"Wheat, Sugarcane",Sprayer,Need skilled labor,Manual weeding,Paddy transplanter,"Nursery setup, Repair & maintenance"
+Sonpur,2375,"Wheat, Chana","Harvester, Sprayer",No major labor issues,"No harvester, No paddy planter, No weeder","Nursery bed, Weeder","Bookkeeping, Nursery setup"
+Dhanwar,2937,"Sugarcane, Mung",Harvester,Labor migration,"Manual sowing, No seed drill","Harvester, Nursery bed",Custom hiring
+Khurda,658,"Vegetables, Mung","Harvester, Tractor",Need skilled labor,"Manual weeding, Manual sowing",Nursery bed,"Nursery setup, Machine handling"
+Pipra,1919,"Maize, Millets","Sprayer, Manual Tools",Labor migration,No harvester,Paddy transplanter,Machine handling
+Chandipur,731,"Millets, Maize, Paddy",Manual Tools,None,"No paddy planter, No seed drill",Weeder,Repair & maintenance
+Agariya,2046,"Millets, Maize, Sugarcane, Mung",None,No major labor issues,Manual sowing,"Harvester, Sprayer","Machine handling, Nursery setup"
+Dhanwar,1322,"Sugarcane, Mung, Millets",None,Labor migration,No harvester,"Paddy transplanter, Harvester","Custom hiring, Machine handling"
+Buxar,2675,"Chana, Sugarcane","None, Manual Tools, Tractor",No major labor issues,Manual sowing,Nursery bed,Repair & maintenance
+Rajpur,1373,"Chana, Paddy","Tractor, Manual Tools",None,"Manual weeding, No paddy planter, Manual sowing",Weeder,Repair & maintenance
+Buxar,855,"Maize, Sugarcane, Vegetables","Harvester, Manual Tools, None",Labor migration,"Manual sowing, No paddy planter","Nursery bed, Seed drill",Bookkeeping
+Sonpur,1608,"Paddy, Millets, Chana, Sugarcane",None,None,Manual weeding,Nursery bed,"Custom hiring, Bookkeeping"
+Khurda,1069,"Vegetables, Sugarcane, Mung","Tractor, None, Sprayer",Need skilled labor,"Manual sowing, No harvester",Seed drill,Nursery setup
+Pipra,2548,"Paddy, Millets, Vegetables, Maize",Manual Tools,None,"Manual weeding, Manual sowing",Harvester,"Repair & maintenance, Bookkeeping"
+Pipra,2543,"Vegetables, Wheat, Mung, Chana",Sprayer,Labor migration,No weeder,"Seed drill, Paddy transplanter",Nursery setup
+Buxar,621,"Paddy, Millets, Wheat, Vegetables","Sprayer, Tractor, Harvester",Harvest labor shortage,No seed drill,"Harvester, Seed drill","Nursery setup, Repair & maintenance"
+Malda,1392,"Maize, Mung","Sprayer, Manual Tools, None",Labor migration,"No seed drill, No harvester, Manual sowing",Nursery bed,Custom hiring
+Pipra,1253,"Millets, Sugarcane, Chana","Harvester, Tractor, None",No major labor issues,"Manual sowing, No paddy planter, No harvester","Nursery bed, Weeder","Bookkeeping, Repair & maintenance"
+Kundesar,2525,"Wheat, Chana, Sugarcane, Paddy",None,Need skilled labor,No paddy planter,"Harvester, Seed drill","Machine handling, Custom hiring"
+Malda,2379,"Maize, Vegetables, Sugarcane, Mung","None, Manual Tools",Harvest labor shortage,"No weeder, No seed drill","Harvester, Sprayer",Repair & maintenance
+Pipra,2458,"Chana, Maize","None, Manual Tools, Harvester",No major labor issues,"No seed drill, No paddy planter",Sprayer,"Repair & maintenance, Nursery setup"
+Malda,589,"Wheat, Mung, Millets",Harvester,No major labor issues,"No paddy planter, No harvester, Manual weeding","Harvester, Sprayer","Nursery setup, Bookkeeping"
+Rajpur,944,"Maize, Paddy, Vegetables, Sugarcane","Manual Tools, Tractor, None",Need skilled labor,No harvester,"Nursery bed, Sprayer","Machine handling, Repair & maintenance"
+Kundesar,2559,"Sugarcane, Maize, Paddy, Mung","Harvester, Tractor, Manual Tools",Need skilled labor,"No harvester, Manual sowing",Harvester,Custom hiring
+Rajpur,2382,"Millets, Vegetables, Maize","Sprayer, Harvester, Tractor",None,"No seed drill, Manual sowing, No paddy planter","Weeder, Paddy transplanter","Custom hiring, Nursery setup"
+Chandipur,1997,"Vegetables, Wheat, Millets","Manual Tools, Harvester",None,"Manual sowing, No seed drill, No weeder","Harvester, Weeder","Custom hiring, Bookkeeping"
+Buxar,2839,"Mung, Chana, Vegetables","Manual Tools, Sprayer",Labor migration,"No harvester, Manual weeding, No seed drill",Sprayer,Machine handling
+Pipra,2761,"Vegetables, Maize, Mung","Manual Tools, Sprayer",Harvest labor shortage,No paddy planter,"Paddy transplanter, Sprayer",Nursery setup
+Rajpur,1835,"Maize, Sugarcane, Vegetables","Manual Tools, Tractor",Harvest labor shortage,No harvester,Sprayer,Machine handling
+Khurda,1674,"Millets, Wheat, Maize, Mung","Harvester, Manual Tools",Need skilled labor,No seed drill,"Harvester, Seed drill",Nursery setup
+Agariya,951,"Paddy, Vegetables, Chana",Sprayer,Labor migration,"No seed drill, No weeder",Sprayer,Nursery setup
+Kundesar,1086,"Maize, Paddy",Harvester,No major labor issues,No weeder,Sprayer,Bookkeeping
+Malda,1287,"Paddy, Mung","Sprayer, Harvester",No major labor issues,"Manual sowing, No paddy planter, No harvester",Nursery bed,Nursery setup
+Buxar,1843,"Millets, Vegetables",Harvester,None,"No harvester, Manual weeding, No seed drill",Paddy transplanter,"Custom hiring, Nursery setup"
+Malda,1934,"Chana, Wheat","Tractor, Harvester",Need skilled labor,"No weeder, No seed drill",Nursery bed,"Custom hiring, Bookkeeping"
+Malda,1263,"Maize, Millets, Sugarcane",Sprayer,Need skilled labor,"Manual weeding, No seed drill, No paddy planter","Weeder, Sprayer",Repair & maintenance
+Kundesar,2359,"Maize, Chana, Vegetables, Paddy","Manual Tools, Sprayer, Tractor",Need skilled labor,"No seed drill, No weeder, No harvester","Harvester, Weeder",Repair & maintenance
+Malda,2698,"Chana, Paddy, Wheat, Mung","Manual Tools, Harvester",Labor migration,"Manual weeding, No weeder","Harvester, Paddy transplanter","Machine handling, Bookkeeping"
+Kundesar,1878,"Chana, Vegetables, Wheat, Millets","Sprayer, Manual Tools",No major labor issues,No paddy planter,"Paddy transplanter, Seed drill","Repair & maintenance, Nursery setup"
+Rajpur,2110,"Wheat, Paddy, Vegetables, Sugarcane","Tractor, Manual Tools",None,"No paddy planter, No weeder",Seed drill,"Nursery setup, Bookkeeping"
+Malda,514,"Paddy, Mung, Chana, Vegetables","None, Sprayer",No major labor issues,No paddy planter,Weeder,"Machine handling, Custom hiring"
+Dhanwar,714,"Vegetables, Sugarcane, Maize",Tractor,Labor migration,"No paddy planter, Manual sowing","Sprayer, Weeder",Machine handling
+Chandipur,700,"Mung, Millets, Sugarcane","Tractor, None, Manual Tools",Harvest labor shortage,"No seed drill, No weeder, Manual sowing","Harvester, Paddy transplanter","Custom hiring, Repair & maintenance"
+Agariya,2432,"Sugarcane, Chana, Mung, Wheat","Manual Tools, None, Sprayer",No major labor issues,No weeder,Harvester,"Repair & maintenance, Nursery setup"
+Malda,1297,"Paddy, Maize, Chana","None, Harvester",No major labor issues,"No seed drill, No weeder, Manual weeding","Weeder, Sprayer",Machine handling
+Agariya,1833,"Millets, Maize, Sugarcane",None,Labor migration,Manual weeding,"Harvester, Weeder",Bookkeeping
+Dhanwar,862,"Mung, Millets","Manual Tools, None, Sprayer",Labor migration,"Manual weeding, No paddy planter",Paddy transplanter,Custom hiring
+Chandipur,2663,"Wheat, Mung, Chana","Harvester, None",None,"No paddy planter, No seed drill, No harvester","Harvester, Sprayer",Custom hiring
+Dhanwar,1759,"Mung, Vegetables, Wheat, Chana","Harvester, None, Tractor",No major labor issues,Manual weeding,"Paddy transplanter, Seed drill",Bookkeeping
+Agariya,1580,"Paddy, Mung",Tractor,None,"No seed drill, Manual sowing","Harvester, Paddy transplanter","Machine handling, Nursery setup"
+Chandipur,2750,"Paddy, Wheat, Millets",Harvester,Need skilled labor,"No seed drill, No paddy planter","Harvester, Weeder",Nursery setup
+Khurda,1933,"Chana, Millets, Paddy","None, Harvester, Manual Tools",Need skilled labor,Manual weeding,Sprayer,"Machine handling, Nursery setup"
+Chandipur,2312,"Millets, Maize, Sugarcane, Paddy",None,No major labor issues,"Manual weeding, No paddy planter, No weeder",Sprayer,"Repair & maintenance, Machine handling"
+Khurda,1238,"Sugarcane, Vegetables, Wheat","Harvester, Sprayer, Manual Tools",Need skilled labor,Manual weeding,"Nursery bed, Seed drill",Bookkeeping
+Buxar,2375,"Sugarcane, Paddy, Maize, Vegetables","None, Tractor",No major labor issues,"No seed drill, Manual sowing","Seed drill, Weeder","Repair & maintenance, Custom hiring"
+Khurda,1130,"Chana, Maize","Harvester, Tractor, Manual Tools",Need skilled labor,"Manual sowing, No harvester, No paddy planter",Weeder,"Custom hiring, Bookkeeping"
+Rajpur,2744,"Mung, Chana",None,Harvest labor shortage,No weeder,Seed drill,"Bookkeeping, Machine handling"
+Sonpur,719,"Mung, Vegetables","Harvester, None, Manual Tools",None,"Manual sowing, No harvester","Harvester, Seed drill",Custom hiring
+Chandipur,2946,"Chana, Mung",None,No major labor issues,"No seed drill, Manual sowing",Harvester,Custom hiring
+Pipra,2241,"Maize, Sugarcane, Mung","Tractor, Sprayer",Labor migration,"No paddy planter, No seed drill","Harvester, Seed drill","Nursery setup, Custom hiring"
+Buxar,2290,"Maize, Chana, Wheat, Sugarcane","Sprayer, Harvester",Harvest labor shortage,"No seed drill, No harvester, Manual sowing",Sprayer,Machine handling
+Pipra,2019,"Millets, Maize, Vegetables, Paddy","Tractor, Sprayer",No major labor issues,"Manual weeding, No weeder, No seed drill",Harvester,"Custom hiring, Machine handling"
+Khurda,1329,"Paddy, Maize","Tractor, Sprayer",None,"No seed drill, No weeder, No paddy planter","Weeder, Paddy transplanter",Nursery setup
+Kundesar,2768,"Chana, Mung, Millets, Maize",Sprayer,None,"No harvester, Manual sowing","Paddy transplanter, Seed drill",Bookkeeping
+Agariya,2947,"Wheat, Chana, Vegetables, Mung",Tractor,Need skilled labor,"No harvester, Manual weeding",Paddy transplanter,Machine handling
+Pipra,2913,"Maize, Wheat",Sprayer,Harvest labor shortage,"No weeder, Manual weeding, Manual sowing","Paddy transplanter, Nursery bed",Nursery setup
+Malda,2459,"Maize, Vegetables, Mung, Paddy","Harvester, Manual Tools",No major labor issues,"Manual sowing, No seed drill, No paddy planter",Sprayer,Custom hiring
+Sonpur,804,"Paddy, Sugarcane, Chana","Sprayer, Tractor",Labor migration,"Manual weeding, No seed drill",Weeder,"Nursery setup, Repair & maintenance"
+Dhanwar,890,"Vegetables, Maize, Chana",None,No major labor issues,No weeder,"Seed drill, Sprayer","Repair & maintenance, Bookkeeping"
+Pipra,897,"Mung, Maize, Vegetables",Manual Tools,None,"Manual weeding, No harvester",Sprayer,Nursery setup
+Malda,1696,"Wheat, Chana","Harvester, Manual Tools",None,"Manual sowing, No paddy planter","Nursery bed, Seed drill","Repair & maintenance, Bookkeeping"
+Khurda,2566,"Paddy, Sugarcane, Vegetables, Wheat","Tractor, Sprayer, Manual Tools",No major labor issues,No paddy planter,Weeder,Bookkeeping
+Sonpur,2942,"Chana, Mung, Sugarcane","Manual Tools, Sprayer, Tractor",Labor migration,"No paddy planter, No seed drill, Manual weeding",Paddy transplanter,Custom hiring
+Kundesar,2131,"Vegetables, Paddy, Mung, Sugarcane","Manual Tools, Sprayer",Need skilled labor,No seed drill,"Weeder, Paddy transplanter","Nursery setup, Custom hiring"
+Kundesar,586,"Sugarcane, Chana","None, Harvester",Labor migration,No harvester,"Nursery bed, Paddy transplanter","Repair & maintenance, Custom hiring"
+Dhanwar,1448,"Paddy, Mung","Manual Tools, None",None,"No weeder, No harvester, No paddy planter",Nursery bed,"Nursery setup, Machine handling"
+Buxar,2178,"Paddy, Sugarcane",Tractor,No major labor issues,Manual weeding,Seed drill,"Custom hiring, Nursery setup"
+Pipra,1024,"Paddy, Sugarcane, Vegetables, Wheat",None,Harvest labor shortage,No paddy planter,Nursery bed,Machine handling
+Buxar,2885,"Sugarcane, Millets",None,Labor migration,"Manual sowing, Manual weeding","Weeder, Sprayer",Custom hiring
+Dhanwar,887,"Millets, Wheat, Mung",Sprayer,No major labor issues,"No paddy planter, Manual weeding, No weeder","Seed drill, Weeder",Repair & maintenance
+Rajpur,1991,"Maize, Millets, Wheat","Tractor, Sprayer, None",Need skilled labor,No harvester,Seed drill,Machine handling
+Agariya,1280,"Wheat, Maize, Millets","Sprayer, Tractor",No major labor issues,"Manual sowing, No seed drill","Paddy transplanter, Nursery bed","Nursery setup, Custom hiring"
+Dhanwar,2622,"Mung, Millets, Chana, Sugarcane",Manual Tools,No major labor issues,No weeder,"Paddy transplanter, Weeder",Nursery setup
+Agariya,1327,"Chana, Millets, Vegetables, Paddy","Sprayer, Manual Tools, Harvester",Need skilled labor,"No paddy planter, No harvester, Manual weeding","Seed drill, Sprayer",Repair & maintenance
+Rajpur,1405,"Sugarcane, Mung",Tractor,No major labor issues,No harvester,"Harvester, Seed drill","Custom hiring, Nursery setup"
+Rajpur,1074,"Maize, Vegetables, Sugarcane, Mung",Harvester,Labor migration,"No weeder, No harvester, No seed drill","Harvester, Sprayer","Repair & maintenance, Nursery setup"
+Agariya,1184,"Sugarcane, Vegetables, Paddy","Sprayer, Tractor",Labor migration,No harvester,Sprayer,Machine handling
+Dhanwar,2289,"Sugarcane, Maize, Millets, Wheat","Manual Tools, Tractor",Labor migration,Manual weeding,Nursery bed,Bookkeeping
+Buxar,1391,"Chana, Wheat","Harvester, Sprayer",Labor migration,"No weeder, No seed drill",Paddy transplanter,Repair & maintenance
+Agariya,2672,"Paddy, Chana","None, Harvester",Labor migration,Manual weeding,Paddy transplanter,Repair & maintenance
+Malda,1876,"Vegetables, Millets, Sugarcane, Wheat","Manual Tools, Harvester",Need skilled labor,"No weeder, No paddy planter, Manual sowing","Weeder, Sprayer",Repair & maintenance
+Agariya,1720,"Vegetables, Wheat, Maize","Tractor, Sprayer",Labor migration,"No harvester, No seed drill, Manual sowing",Seed drill,Repair & maintenance
+Agariya,1982,"Chana, Mung, Vegetables, Sugarcane",None,Need skilled labor,"No weeder, No paddy planter, No harvester","Sprayer, Paddy transplanter","Nursery setup, Bookkeeping"
+Chandipur,887,"Sugarcane, Vegetables, Chana","None, Manual Tools",Harvest labor shortage,"No harvester, No paddy planter, No seed drill","Harvester, Sprayer",Repair & maintenance
+Chandipur,1223,"Chana, Maize, Vegetables, Paddy","Manual Tools, Sprayer",No major labor issues,No harvester,Nursery bed,"Repair & maintenance, Custom hiring"
+Rajpur,2955,"Wheat, Mung, Maize, Sugarcane","Harvester, Tractor, Sprayer",None,Manual weeding,"Weeder, Seed drill","Custom hiring, Bookkeeping"
+Pipra,1323,"Sugarcane, Chana, Vegetables, Mung",Tractor,Harvest labor shortage,"No seed drill, No paddy planter, No weeder","Nursery bed, Sprayer","Bookkeeping, Repair & maintenance"
+Khurda,2952,"Sugarcane, Chana, Mung",Harvester,No major labor issues,"No harvester, No seed drill","Nursery bed, Harvester",Bookkeeping
+Buxar,1596,"Millets, Mung, Vegetables, Wheat","Tractor, Sprayer",Harvest labor shortage,"No seed drill, No weeder","Sprayer, Paddy transplanter",Custom hiring
+Khurda,1460,"Wheat, Mung",None,No major labor issues,"No seed drill, No weeder","Paddy transplanter, Sprayer","Machine handling, Bookkeeping"
+Rajpur,1545,"Wheat, Paddy, Chana","Sprayer, None",None,No seed drill,Weeder,Nursery setup
+Sonpur,2117,"Millets, Maize, Chana",None,Harvest labor shortage,"No seed drill, No paddy planter",Nursery bed,Custom hiring
+Sonpur,2957,"Chana, Paddy, Vegetables","Harvester, Tractor, Manual Tools",Need skilled labor,"Manual weeding, No paddy planter",Harvester,Machine handling
+Kundesar,2376,"Chana, Maize",Harvester,Need skilled labor,"No harvester, No weeder",Sprayer,"Custom hiring, Machine handling"
+Rajpur,640,"Maize, Mung, Wheat, Vegetables",Manual Tools,Labor migration,"No harvester, No paddy planter, No seed drill",Sprayer,Nursery setup
+Khurda,2569,"Chana, Vegetables","Manual Tools, Tractor, None",None,No paddy planter,Weeder,"Nursery setup, Repair & maintenance"
+Buxar,2349,"Millets, Vegetables, Mung","Sprayer, None, Harvester",Labor migration,"Manual sowing, Manual weeding, No weeder",Paddy transplanter,Custom hiring
+Sonpur,1245,"Mung, Paddy, Sugarcane",Harvester,No major labor issues,"Manual sowing, No harvester, No weeder",Paddy transplanter,Custom hiring
+Agariya,2087,"Wheat, Mung, Chana","Tractor, Sprayer",Harvest labor shortage,"Manual sowing, No seed drill","Sprayer, Harvester","Repair & maintenance, Machine handling"
+Chandipur,1638,"Millets, Sugarcane, Mung","Sprayer, None, Manual Tools",No major labor issues,"No weeder, No seed drill",Paddy transplanter,"Bookkeeping, Custom hiring"
+Dhanwar,1660,"Sugarcane, Vegetables, Millets","Manual Tools, None, Sprayer",Labor migration,"No seed drill, Manual weeding",Seed drill,"Bookkeeping, Machine handling"
+Chandipur,1962,"Millets, Mung","Manual Tools, None",Harvest labor shortage,"No paddy planter, No harvester",Nursery bed,Machine handling
+Chandipur,2864,"Mung, Chana, Maize, Sugarcane","Tractor, None, Sprayer",Need skilled labor,No weeder,"Seed drill, Nursery bed",Repair & maintenance
+Kundesar,889,"Mung, Chana","Tractor, None",No major labor issues,"Manual weeding, No seed drill, No paddy planter","Weeder, Sprayer","Nursery setup, Repair & maintenance"
+Agariya,2574,"Sugarcane, Millets",Harvester,Harvest labor shortage,No weeder,Seed drill,"Nursery setup, Repair & maintenance"
+Buxar,1856,"Mung, Paddy",Sprayer,No major labor issues,"Manual sowing, No weeder","Seed drill, Harvester",Custom hiring
+Khurda,1001,"Chana, Vegetables, Maize",Sprayer,None,No weeder,"Sprayer, Harvester","Bookkeeping, Machine handling"
+Buxar,1525,"Mung, Wheat","Manual Tools, Sprayer, None",Harvest labor shortage,No seed drill,"Seed drill, Paddy transplanter","Repair & maintenance, Nursery setup"
+Sonpur,1269,"Wheat, Millets, Vegetables, Chana","Harvester, Tractor",Harvest labor shortage,"No weeder, No harvester, Manual weeding","Nursery bed, Seed drill",Machine handling
+Rajpur,788,"Vegetables, Maize, Wheat","Sprayer, None, Manual Tools",Need skilled labor,"No seed drill, No harvester",Sprayer,Nursery setup
+Pipra,844,"Chana, Maize, Sugarcane","Manual Tools, Harvester, None",No major labor issues,"Manual weeding, No paddy planter",Seed drill,"Repair & maintenance, Machine handling"
+Kundesar,2768,"Paddy, Maize, Millets","Manual Tools, Harvester",Harvest labor shortage,"No harvester, No seed drill, Manual weeding","Paddy transplanter, Harvester","Custom hiring, Repair & maintenance"
+Dhanwar,2894,"Maize, Sugarcane","Sprayer, Manual Tools",No major labor issues,"Manual sowing, No paddy planter, No harvester","Weeder, Sprayer",Bookkeeping
+Agariya,2298,"Vegetables, Maize, Wheat",Harvester,Harvest labor shortage,"Manual sowing, No seed drill","Paddy transplanter, Nursery bed","Nursery setup, Machine handling"
+Pipra,2692,"Chana, Maize, Millets","Manual Tools, Tractor, None",No major labor issues,"Manual sowing, No weeder",Sprayer,"Bookkeeping, Repair & maintenance"
+Agariya,2352,"Millets, Maize, Sugarcane, Vegetables","Manual Tools, Harvester",Harvest labor shortage,"No seed drill, Manual weeding","Weeder, Sprayer","Machine handling, Bookkeeping"
+Pipra,2287,"Sugarcane, Paddy",None,Harvest labor shortage,"No harvester, No seed drill",Seed drill,Repair & maintenance
+Buxar,1990,"Chana, Paddy, Vegetables",Sprayer,No major labor issues,No harvester,Seed drill,Repair & maintenance
+Buxar,1364,"Wheat, Paddy, Mung, Sugarcane","None, Harvester",Harvest labor shortage,No weeder,Sprayer,"Nursery setup, Machine handling"
+Agariya,723,"Mung, Maize, Wheat, Chana","Sprayer, Manual Tools",Harvest labor shortage,"Manual weeding, No seed drill",Nursery bed,"Repair & maintenance, Bookkeeping"
+Rajpur,893,"Wheat, Chana","Manual Tools, Tractor",Harvest labor shortage,"Manual weeding, No seed drill",Paddy transplanter,Nursery setup
+Buxar,1919,"Sugarcane, Wheat, Chana, Paddy",Sprayer,Need skilled labor,Manual weeding,"Sprayer, Nursery bed",Custom hiring
+Rajpur,2973,"Vegetables, Wheat, Chana, Mung","Harvester, Sprayer, Tractor",No major labor issues,"No seed drill, No paddy planter",Harvester,Repair & maintenance
+Buxar,1227,"Millets, Chana","Manual Tools, Tractor",None,No weeder,Seed drill,"Nursery setup, Bookkeeping"
+Sonpur,806,"Millets, Vegetables",Tractor,None,"Manual weeding, No seed drill, No weeder","Paddy transplanter, Nursery bed","Custom hiring, Bookkeeping"
+Kundesar,2912,"Vegetables, Chana, Millets, Paddy","Tractor, Sprayer",Need skilled labor,No weeder,Seed drill,"Bookkeeping, Nursery setup"
+Rajpur,2894,"Sugarcane, Vegetables, Chana, Paddy",Sprayer,Labor migration,"No harvester, No seed drill, Manual weeding","Weeder, Nursery bed","Repair & maintenance, Machine handling"
+Pipra,1891,"Mung, Vegetables, Chana, Sugarcane","None, Harvester",Need skilled labor,"No seed drill, No harvester",Sprayer,Repair & maintenance
+Chandipur,2506,"Mung, Chana","Harvester, None",None,Manual sowing,"Paddy transplanter, Harvester",Bookkeeping
+Sonpur,2894,"Chana, Millets",Manual Tools,Need skilled labor,No harvester,Nursery bed,"Repair & maintenance, Machine handling"
+Kundesar,1706,"Maize, Millets","Harvester, None",Harvest labor shortage,"No paddy planter, Manual sowing, No weeder","Paddy transplanter, Seed drill","Custom hiring, Machine handling"
+Kundesar,1670,"Wheat, Sugarcane, Chana, Maize","Harvester, Sprayer",No major labor issues,"No harvester, No paddy planter, Manual sowing","Nursery bed, Sprayer","Repair & maintenance, Bookkeeping"
+Rajpur,2577,"Millets, Maize","None, Manual Tools, Sprayer",No major labor issues,"Manual sowing, No harvester, No weeder","Seed drill, Weeder",Custom hiring
+Pipra,1102,"Paddy, Millets, Sugarcane",Harvester,None,"Manual sowing, No harvester",Nursery bed,"Bookkeeping, Nursery setup"
+Pipra,1398,"Sugarcane, Vegetables",Manual Tools,Labor migration,"No weeder, Manual weeding","Harvester, Weeder",Custom hiring
+Kundesar,847,"Mung, Wheat, Sugarcane",Sprayer,Need skilled labor,"Manual weeding, No paddy planter","Nursery bed, Seed drill",Bookkeeping
+Kundesar,1919,"Paddy, Maize, Vegetables, Millets",None,None,"No seed drill, No paddy planter","Seed drill, Nursery bed","Bookkeeping, Custom hiring"
+Malda,2775,"Vegetables, Paddy, Sugarcane","Manual Tools, None, Sprayer",No major labor issues,No paddy planter,Seed drill,"Machine handling, Bookkeeping"
+Pipra,1725,"Maize, Vegetables",Sprayer,Need skilled labor,"No seed drill, Manual weeding",Paddy transplanter,Custom hiring
+Sonpur,1455,"Wheat, Millets, Vegetables, Paddy","None, Harvester",Harvest labor shortage,"No weeder, Manual sowing","Nursery bed, Harvester",Custom hiring
+Buxar,748,"Wheat, Sugarcane","Tractor, Sprayer, Harvester",No major labor issues,"Manual weeding, No seed drill, No weeder",Weeder,"Nursery setup, Machine handling"
+Pipra,941,"Vegetables, Mung",None,None,"Manual sowing, No seed drill, No weeder",Nursery bed,"Bookkeeping, Repair & maintenance"
+Agariya,762,"Mung, Wheat, Chana","Harvester, Tractor",None,"Manual weeding, No harvester, Manual sowing",Harvester,Machine handling
+Khurda,2007,"Vegetables, Millets","Sprayer, Tractor",No major labor issues,"Manual weeding, No seed drill, No harvester",Seed drill,Machine handling
+Dhanwar,876,"Mung, Chana, Sugarcane","Harvester, None, Tractor",Need skilled labor,"No paddy planter, Manual sowing",Seed drill,Machine handling
+Malda,2483,"Sugarcane, Chana",Sprayer,Labor migration,"No paddy planter, No weeder",Seed drill,"Machine handling, Repair & maintenance"
+Malda,2605,"Paddy, Millets","None, Sprayer, Harvester",No major labor issues,"No harvester, No paddy planter","Paddy transplanter, Sprayer",Machine handling
+Dhanwar,1000,"Vegetables, Millets","Sprayer, None, Tractor",Harvest labor shortage,"No paddy planter, No weeder",Paddy transplanter,"Bookkeeping, Repair & maintenance"
+Agariya,2002,"Wheat, Vegetables","Manual Tools, Sprayer",None,"No seed drill, No harvester, Manual weeding","Sprayer, Weeder","Bookkeeping, Custom hiring"
+Dhanwar,1502,"Mung, Sugarcane, Millets, Chana","Harvester, Tractor",Harvest labor shortage,No harvester,Paddy transplanter,Nursery setup
+Agariya,2511,"Paddy, Wheat, Sugarcane, Maize",Tractor,None,Manual weeding,Seed drill,"Bookkeeping, Nursery setup"
+Pipra,2392,"Maize, Mung",Sprayer,Labor migration,"No paddy planter, Manual sowing, Manual weeding","Seed drill, Harvester","Nursery setup, Repair & maintenance"
+Dhanwar,664,"Chana, Sugarcane","Tractor, None, Harvester",Labor migration,"Manual weeding, No seed drill","Paddy transplanter, Sprayer",Bookkeeping
+Dhanwar,2323,"Maize, Chana, Vegetables",Manual Tools,Need skilled labor,"No weeder, No paddy planter","Weeder, Paddy transplanter",Custom hiring
+Rajpur,1974,"Wheat, Millets, Vegetables","Manual Tools, Harvester, Sprayer",Harvest labor shortage,No harvester,"Paddy transplanter, Seed drill","Bookkeeping, Machine handling"
+Chandipur,2533,"Vegetables, Sugarcane, Millets","Tractor, Sprayer, None",Labor migration,Manual weeding,Harvester,"Custom hiring, Nursery setup"
+Agariya,1806,"Maize, Millets, Sugarcane","Harvester, Tractor",None,"No weeder, Manual sowing","Paddy transplanter, Harvester","Repair & maintenance, Custom hiring"
+Malda,2473,"Maize, Sugarcane","None, Manual Tools",Labor migration,"No seed drill, Manual sowing","Sprayer, Paddy transplanter",Repair & maintenance
+Sonpur,1673,"Mung, Chana, Wheat, Sugarcane","Sprayer, None, Manual Tools",Labor migration,"No paddy planter, No weeder, No seed drill",Seed drill,Repair & maintenance
+Khurda,2086,"Wheat, Sugarcane","None, Manual Tools, Harvester",Need skilled labor,"No paddy planter, No weeder, Manual sowing",Paddy transplanter,"Nursery setup, Repair & maintenance"
+Dhanwar,2199,"Chana, Mung","Tractor, None",Harvest labor shortage,"No seed drill, No weeder",Nursery bed,"Repair & maintenance, Custom hiring"
+Sonpur,2103,"Wheat, Sugarcane, Paddy",Tractor,None,No paddy planter,Seed drill,"Bookkeeping, Custom hiring"
+Rajpur,1412,"Wheat, Mung","Manual Tools, Tractor",Labor migration,"No paddy planter, No weeder",Seed drill,"Custom hiring, Repair & maintenance"
+Buxar,2935,"Millets, Mung, Maize","None, Sprayer",Harvest labor shortage,No harvester,"Harvester, Paddy transplanter","Machine handling, Custom hiring"
+Kundesar,1663,"Wheat, Millets, Maize","Harvester, None, Sprayer",Harvest labor shortage,No paddy planter,"Sprayer, Paddy transplanter",Nursery setup
+Pipra,584,"Wheat, Chana, Maize",Harvester,Need skilled labor,"No harvester, No seed drill, Manual sowing",Harvester,"Repair & maintenance, Machine handling"
+Malda,2672,"Vegetables, Millets, Sugarcane",None,No major labor issues,"Manual weeding, No harvester, No paddy planter","Nursery bed, Weeder",Machine handling
+Sonpur,2225,"Mung, Maize, Sugarcane",Manual Tools,No major labor issues,"No paddy planter, No harvester",Seed drill,"Machine handling, Nursery setup"
+Dhanwar,2951,"Millets, Paddy, Maize, Mung",Manual Tools,No major labor issues,"Manual weeding, Manual sowing, No paddy planter",Nursery bed,Custom hiring
+Dhanwar,1956,"Maize, Paddy","None, Harvester, Manual Tools",Labor migration,No weeder,"Sprayer, Nursery bed","Repair & maintenance, Custom hiring"
+Kundesar,1137,"Vegetables, Sugarcane, Wheat, Maize","Tractor, Sprayer, Manual Tools",Harvest labor shortage,"Manual sowing, No harvester","Sprayer, Paddy transplanter",Repair & maintenance
+Chandipur,2756,"Maize, Millets","Tractor, Harvester, None",Harvest labor shortage,No seed drill,"Paddy transplanter, Sprayer",Bookkeeping
+Malda,2937,"Chana, Millets","None, Harvester, Tractor",Need skilled labor,"No seed drill, Manual weeding, Manual sowing",Sprayer,Repair & maintenance
+Khurda,2462,"Wheat, Vegetables",Harvester,Need skilled labor,No weeder,Sprayer,"Bookkeeping, Custom hiring"
+Dhanwar,1986,"Mung, Wheat, Chana",Manual Tools,No major labor issues,"No weeder, Manual weeding",Nursery bed,"Bookkeeping, Nursery setup"
+Buxar,1230,"Sugarcane, Wheat, Millets","None, Harvester, Sprayer",Need skilled labor,"No harvester, No paddy planter, No seed drill","Sprayer, Nursery bed",Nursery setup
+Chandipur,741,"Chana, Vegetables, Millets, Paddy",Tractor,None,"No harvester, Manual weeding",Paddy transplanter,"Machine handling, Repair & maintenance"
+Agariya,1386,"Paddy, Mung, Wheat","None, Tractor",Need skilled labor,"Manual weeding, No weeder",Harvester,Machine handling
+Malda,1679,"Vegetables, Maize, Sugarcane","Tractor, Sprayer, None",No major labor issues,No seed drill,"Nursery bed, Weeder",Bookkeeping
+Agariya,788,"Paddy, Mung, Wheat",Harvester,No major labor issues,No seed drill,"Nursery bed, Sprayer",Bookkeeping
+Dhanwar,2431,"Sugarcane, Mung, Paddy, Chana",Tractor,Need skilled labor,Manual weeding,"Nursery bed, Harvester",Bookkeeping
+Sonpur,528,"Chana, Maize, Vegetables, Wheat","Harvester, Sprayer",No major labor issues,"No weeder, No harvester","Sprayer, Seed drill",Machine handling
+Khurda,2220,"Sugarcane, Vegetables, Mung",Manual Tools,None,"No harvester, No seed drill","Paddy transplanter, Sprayer",Custom hiring
